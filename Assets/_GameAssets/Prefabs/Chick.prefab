@@ -478,6 +478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2402325658867868082}
   - component: {fileID: 5122563970417899158}
+  - component: {fileID: 4826398148952039057}
   m_Layer: 0
   m_Name: CR_1044a_rig
   m_TagString: Untagged
@@ -570,6 +571,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.041609682, y: 0.0064865127, z: -0.0000000037252903}
     m_Extent: {x: 0.122447856, y: 0.09929734, z: 0.08000013}
   m_DirtyAABB: 0
+--- !u!64 &4826398148952039057
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5341699089451079791}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1142192125310627318, guid: 07be36cd682cee74cb06323ab7d0a1ce, type: 3}
 --- !u!1 &5383823014844638036
 GameObject:
   m_ObjectHideFlags: 0

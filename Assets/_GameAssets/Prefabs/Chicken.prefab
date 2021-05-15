@@ -372,6 +372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3123745758805156242}
   - component: {fileID: 8010424246810715912}
+  - component: {fileID: 905615724396375652}
   m_Layer: 0
   m_Name: Chicken
   m_TagString: Untagged
@@ -481,6 +482,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.02814737, y: -0.002504468, z: -0.0015094876}
     m_Extent: {x: 0.3585552, y: 0.34177327, z: 0.15526342}
   m_DirtyAABB: 0
+--- !u!64 &905615724396375652
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2937796974551172006}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1248039166958328286, guid: fe4683e74552286418c75ae8409fe5f9, type: 3}
 --- !u!1 &3246770747994161437
 GameObject:
   m_ObjectHideFlags: 0
