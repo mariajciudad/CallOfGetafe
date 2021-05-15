@@ -1,44 +1,24 @@
 fileFormatVersion: 2
-guid: c11f543084da494489e7960c11414c85
+guid: a9d40f82d161bff44ac3343eb637f2c4
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: -2765111191442445176
-    second: root|Eat
+      74: 1893833704289407209
+    second: metarig|Eat
   - first:
-      74: 9191898771074068106
-    second: root|LookAround
+      74: -5324238279805231817
+    second: metarig|Idle
   - first:
-      74: -7731505310147663943
-    second: root|root.001|Unreal Take|Base Layer
+      74: -1806269968992113051
+    second: metarig|Idle2
   - first:
-      74: 2792158197833523306
-    second: root|root.001|Unreal Take|Base Layer.001
+      74: -2483591982332496685
+    second: metarig|Run
   - first:
-      74: 3847756864722943331
-    second: root|root.001|Unreal Take|Base Layer.002
-  - first:
-      74: -8184185882929395485
-    second: root|root.002|Unreal Take|Base Layer
-  - first:
-      74: -2189850472530972723
-    second: root|root.002|Unreal Take|Base Layer.001
-  - first:
-      74: 7639165935007260057
-    second: root|root.003|Unreal Take|Base Layer
-  - first:
-      74: -9111573919695585582
-    second: root|TakeOff
-  - first:
-      74: -6474990391503057211
-    second: root|Eat (1)
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_Crow
-    second: {fileID: 2100000, guid: a8d00e80c6f4c7b4597faa71f491a228, type: 2}
+      74: 2933577835342229695
+    second: metarig|Walk
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -62,16 +42,16 @@ ModelImporter:
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
-    animationWrapMode: 2
+    animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: root|Eat
-      takeName: root|Eat
+      name: metarig|Eat
+      takeName: metarig|Eat
       internalID: 0
       firstFrame: 0
-      lastFrame: 168
+      lastFrame: 164
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
@@ -96,11 +76,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: root|LookAround
-      takeName: root|LookAround
+      name: metarig|Idle
+      takeName: metarig|Idle
       internalID: 0
       firstFrame: 0
-      lastFrame: 88
+      lastFrame: 299
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -125,11 +105,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: root|root.001|Unreal Take|Base Layer
-      takeName: root|root.001|Unreal Take|Base Layer
+      name: metarig|Idle2
+      takeName: metarig|Idle2
       internalID: 0
       firstFrame: 0
-      lastFrame: 88
+      lastFrame: 329
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -154,11 +134,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: root|root.001|Unreal Take|Base Layer.001
-      takeName: root|root.001|Unreal Take|Base Layer.001
+      name: metarig|Run
+      takeName: metarig|Run
       internalID: 0
       firstFrame: 0
-      lastFrame: 33
+      lastFrame: 14
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -183,98 +163,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: root|root.001|Unreal Take|Base Layer.002
-      takeName: root|root.001|Unreal Take|Base Layer.002
+      name: metarig|Walk
+      takeName: metarig|Walk
       internalID: 0
       firstFrame: 0
-      lastFrame: 17
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: root|root.002|Unreal Take|Base Layer
-      takeName: root|root.002|Unreal Take|Base Layer
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 79
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: root|root.002|Unreal Take|Base Layer.001
-      takeName: root|root.002|Unreal Take|Base Layer.001
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 25
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: root|root.003|Unreal Take|Base Layer
-      takeName: root|root.003|Unreal Take|Base Layer
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 17
+      lastFrame: 28
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -301,7 +194,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.6
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -352,7 +245,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 0.6
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
