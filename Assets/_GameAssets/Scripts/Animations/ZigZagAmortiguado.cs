@@ -16,8 +16,10 @@ public class ZigZagAmortiguado : MonoBehaviour
     }
     void Update()
     {
-        //Se calcula el coseno, que sirve para crear movimientos que no sean constantes, que tengan aceleracion y desaceleracion
         y = Mathf.Cos(Time.time * speed) * amplitude;
-        transform.position = new Vector3(transform.position.x, y, transform.position.z);
+        transform.position = new Vector3(
+            transform.position.x, 
+            initialY + y, 
+            transform.position.z);
     }
 }
