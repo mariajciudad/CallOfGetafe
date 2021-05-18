@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4987999360635537747}
   - component: {fileID: 2195781604764229584}
   m_Layer: 0
-  m_Name: LOD0_Plant_LOD_0
+  m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
