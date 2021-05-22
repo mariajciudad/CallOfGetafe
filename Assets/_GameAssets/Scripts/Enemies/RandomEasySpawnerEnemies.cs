@@ -20,10 +20,7 @@ public class RandomEasySpawnerEnemies : MonoBehaviour
     
     private void SpawnEnemy()
     {
-        Instantiate(
-            prefabsEnemy[Random.Range(0,prefabsEnemy.Length)], 
-            spawnPoint.position, 
-            spawnPoint.rotation);
+        Instantiate(prefabsEnemy[Random.Range(0,prefabsEnemy.Length)], spawnPoint.position, spawnPoint.rotation);
         counter++;
         if (counter == numberOfEnemies)
         {
