@@ -21,11 +21,6 @@ public class DogSound : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");  //Se accede a la posición y a la rotación del tag Player   
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnTriggerStay(Collider other)  //El collider trigger se ejecuta indefinidamente
     {

@@ -47,7 +47,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &8971577345134970086
 MonoBehaviour:
@@ -63,14 +63,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   prefabPSDamage: {fileID: 0}
-  prefabPSDeath: {fileID: 0}
+  prefabPSDeath: {fileID: 1965343156803978, guid: aa8d6482d70a23445b4b2a928ed1b845, type: 3}
   distanceToPlayer: 0
   player: {fileID: 0}
   speed: 2
   timeToRotation: 3
   minAngle: 90
   maxAngle: 180
-  distanceToExplosion: 0
+  distanceToExplosion: 2
 --- !u!1 &8971577345642377465
 GameObject:
   m_ObjectHideFlags: 0
