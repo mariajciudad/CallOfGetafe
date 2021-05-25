@@ -34,10 +34,10 @@ public abstract class MobileEnemy : Enemy
         {
             Instantiate(prefabPSDeath, transform.position, transform.rotation);
             //Alternativa triste
-            GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
-            Destroy(this);
+            //GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+            //Destroy(this);
             //Alternativa piadosa
-            //Destroy(gameObject);
+            Destroy(gameObject);
         }
     }
 

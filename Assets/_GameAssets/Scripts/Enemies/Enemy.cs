@@ -4,14 +4,18 @@ using UnityEngine;
 
 public abstract class Enemy : MonoBehaviour
 {
+    public int maxHealth;
     public int health;
+
     public GameObject prefabPSDamage;
     public GameObject prefabPSDeath;
+
     public float distanceToPlayer;
     public GameObject player;
 
     private void Awake()
     {
+        health = maxHealth;
         player = GameObject.FindGameObjectWithTag("Player");
         if (player == null)
         {
@@ -38,9 +42,14 @@ public abstract class Enemy : MonoBehaviour
     /// <summary>
     /// Inflinge un daño al enemigo
     /// </summary>
-    public void ReceiveDamage()
+    public void ReceiveDamage(int damage)
     {
         //TODO sistema de partículas, emitir un sonido, quitar salud, comprobar si ha muerto
+        health -= damage;
+        if (health <= 0)
+        {
+            Death();
+        }
     }
 
     /// <summary>
@@ -49,6 +58,7 @@ public abstract class Enemy : MonoBehaviour
     public void Death()
     {
         //TODO sistema de partículas, emitir un sonido y destruir el objeto
+        Destroy(gameObject);
     }
 
     /// <summary>
