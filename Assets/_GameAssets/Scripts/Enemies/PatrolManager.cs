@@ -30,8 +30,9 @@ public class PatrolManager : MonoBehaviour
             if (currentPoint == patrolPoints.Length) currentPoint = 0;
             if (randomRoute)
             {
-                nma.SetDestination(patrolPoints[Random.Range(0,patrolPoints.Length)].transform.position);
-            } else
+                nma.SetDestination(patrolPoints[Random.Range(0, patrolPoints.Length)].transform.position);
+            }
+            else
             {
                 nma.SetDestination(patrolPoints[currentPoint].transform.position);
             }
