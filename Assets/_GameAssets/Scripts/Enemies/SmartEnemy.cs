@@ -12,7 +12,7 @@ public class SmartEnemy : MobileEnemy {
         base.Update(); //Ejecuta la implementación de Update de la clase base
         if (distanceToPlayer <= followDistance)
         {
-            Vector3 target = new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z); //Mira al player pero manteniendo su posición y
+            Vector3 target = new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z); //Mira al player pero manteniendo su posición y para que no se vuelque
             transform.LookAt(target);
         }
         Move();
