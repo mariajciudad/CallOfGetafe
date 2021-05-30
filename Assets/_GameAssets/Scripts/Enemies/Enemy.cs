@@ -51,8 +51,8 @@ public abstract class Enemy : MonoBehaviour
         }
         else
         {
-            GameObject psDamage = Instantiate(prefabPSDamage, impactPosition, Quaternion.LookRotation(normal));
-            psDamage.transform.SetParent(transform);
+            GameObject psDamage = Instantiate(prefabPSDamage, impactPosition, Quaternion.LookRotation(normal)); //LookRotation(normal) hace que el forward mire hace el vector de la normal (mirar DamageManager.cs)
+            psDamage.transform.SetParent(transform); //Se hace el transform de las particulas de sangre hijo del transform del objeto Enemy para que esten fijas y no se queden atras al moverse el enemigo
         }
     }
 
@@ -62,6 +62,7 @@ public abstract class Enemy : MonoBehaviour
     public void Death()
     {
         //TODO sistema de part?culas, emitir un sonido y destruir el objeto
+        GameObject psDamage = Instantiate(prefabPSDeath, transform.position, transform.rotation);
         Destroy(gameObject);
     }
 

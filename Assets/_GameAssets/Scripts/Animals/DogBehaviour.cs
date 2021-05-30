@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DogSound : MonoBehaviour
+public class DogBehaviour : MonoBehaviour
 {
     public AudioSource audioSource;
 
     public AudioClip[] audioClip;
 
-    private GameObject player; //Se crea una variable de tipo Gameobject para el player
+    private GameObject player; 
 
     private float distance;
     private bool contactFar = true;
@@ -32,7 +32,7 @@ public class DogSound : MonoBehaviour
         {
             transform.LookAt(player.transform.position);
 
-            if (distance > 5)
+            if (distance >= 3.5f && distance <= 4.5f)
             {
                 if (contactFar)
                 {                    
