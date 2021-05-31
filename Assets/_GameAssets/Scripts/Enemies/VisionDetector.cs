@@ -9,6 +9,7 @@ public class VisionDetector : MonoBehaviour
     [SerializeField] private float detectionDistance;
     [SerializeField] private float visionAngle;
     [SerializeField] private Transform visionOrigin;
+    [SerializeField] private LayerMask layerMask;
 
     private void Awake()
     {
@@ -59,7 +60,8 @@ public class VisionDetector : MonoBehaviour
         Vector3 targetDirection = (playerPosition - visionOrigin.position).normalized;//Dirección del rayo
         Ray ray = new Ray(visionOrigin.position, targetDirection);//Rayo
         RaycastHit hitInfo;//Objeto que recoje los datos de la detección
-        bool hasObstacle = Physics.Raycast(ray, out hitInfo);//Lanzamiento del Raycast
+        //bool hasObstacle = Physics.Raycast(ray, out hitInfo);//Lanzamiento del Raycast
+        bool hasObstacle = Physics.Raycast(ray, out hitInfo, Mathf.Infinity, layerMask);
         if (hasObstacle) //Si ha detectado un Collider
         {
             if (hitInfo.collider.gameObject.CompareTag("Player"))//Es el player
