@@ -4,25 +4,22 @@ using UnityEngine;
 
 public class FirstAidKit : MonoBehaviour
 {
-    public int addLifeAmount;
+    [SerializeField] int addLifeAmount;
+    [SerializeField] HealthManager healthManager; //Referenciando el script HealthManager antes, se ahorra Unity que lo busque. Solo funciona si el objeto esta en la escena
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if(healthManager == null) //Si el objeto no esta en la escena y aun no tiene localizado el script HealthManager
+        {
+            healthManager = FindObjectOfType<HealthManager>(); //Lo busca y lo asigna a la variable healthManager
+        }        
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            other.GetComponent<HealthManager>().AddLife(addLifeAmount);
+            healthManager.AddLife(addLifeAmount);
             Destroy(gameObject);
 
             //Otra forma de hacerlo:

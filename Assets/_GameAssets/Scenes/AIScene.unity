@@ -12197,6 +12197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   addLifeAmount: 50
+  healthManager: {fileID: 0}
 --- !u!65 &1932889576
 BoxCollider:
   m_ObjectHideFlags: 0
