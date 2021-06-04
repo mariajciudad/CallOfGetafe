@@ -14,10 +14,11 @@ public class HealthManager : MonoBehaviour
 
     private void Start()
     {
-        textLife.text = playerLife.ToString(); //Al empezar el juego, se muestra su vida inicial
+        textLife.text = playerLife.ToString(); //Al empezar el juego, se muestra la vida inicial
     }
 
-    public void AddLife(int lifeCatch) //Añade o recupera vida, se cura
+    //Añade o recupera vida al coger un botiquin
+    public void AddLife(int lifeCatch) 
     {
         playerLife += lifeCatch;
 
@@ -29,17 +30,23 @@ public class HealthManager : MonoBehaviour
         textLife.text = playerLife.ToString(); //Se accede a la propiedad Text del componente Text de un canvas
     }
 
-    public void RemoveLife(int damage) //Recibe daño
+    //Recibe daño
+    public void RemoveLife(int damage) 
     {
         playerLife -= damage;
 
-        if (playerLife <= 0) //Si la vida del player es 
+        if (playerLife <= 0) 
         {
             playerLife = 0;
-            gameOverPanel.SetActive(true);
+            ActivateGameOverPanel();
         }
 
         textLife.text = playerLife.ToString();
+    }
+
+    void ActivateGameOverPanel()
+    {
+        gameOverPanel.SetActive(true);
     }
 
 
