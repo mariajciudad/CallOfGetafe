@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RaycastGun : MonoBehaviour
 {
     [SerializeField] Transform shootPoint;
     [SerializeField] int shootDistance;
+    [SerializeField] GameObject enemySlider;
 
     void Start()
     {
@@ -27,7 +29,9 @@ public class RaycastGun : MonoBehaviour
             {
                 if (hit.collider.CompareTag("Enemy"))
                 {
-                    Destroy(hit.collider.gameObject);                 
+                    Destroy(hit.collider.gameObject); //Se destruye al enemigo         
+                                        
+                    Destroy(enemySlider); //Y a su barra de energia
                 }
             }
         }
