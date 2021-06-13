@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestRaycastAll : MonoBehaviour
+public class TestRaycast : MonoBehaviour
 {
     public Camera cam; //Se declara la camara
 
     void Start()
     {
-        cam = Camera.main; //Se referencia la camara
-        //Tambien se pueden referenciar asi: cam = FindObjectOfType<Camera>();
+        cam = Camera.main; //Se referencia la camara. Tambien se pueden referenciar asi: cam = FindObjectOfType<Camera>();
     }
 
     void Update()
@@ -31,7 +30,7 @@ public class TestRaycastAll : MonoBehaviour
             RaycastHit hit; //Es informacion del supuesto choque del rayo con algo. Es como hacer un OnTriggerEnter (Collider other), hit seria el other (el objeto con el que ha chocado?)
 
             //Comprueba si el rayo choca con algo
-            if (Physics.Raycast(ray.origin, ray.direction, out hit, 50)) //Raycast es una funcion que va a tratar el ray y el hit. Procede de la clase Physics. Obtiene el origen y direccion del rayo, 50 es la distancia de comprobacion (el rayo solo llega hasta los 50 metros)
+            if (Physics.Raycast(ray.origin, ray.direction, out hit, 50)) //Raycast trata el ray y el hit. Obtiene el origen y direccion del rayo, el objeto con el que choca el rayo y 50 es la distancia de comprobacion (el rayo solo llega hasta los 50 metros)
             {
                 if (hit.collider.gameObject.layer == 16) //Accede al collider del objeto con el que choca el rayo solo si el objeto tiene asignado el Layer nº16 
                 {

@@ -8,13 +8,23 @@ public class TestDotween : MonoBehaviour
     public float bulletTime; //Tiempo de la bala
     public GameObject enemy; //Enemigo hasta donde quiero que llegue la bala
 
+    Rigidbody enemyRb;
+
     private void Awake()
     {
         DOTween.Init(false, true, LogBehaviour.ErrorsOnly); //Se inicializa el Dotween
         enemy = GameObject.FindGameObjectWithTag("Enemy");        
     }
-    
-    // Start is called before the first frame update
+
+    void Start()
+    {
+        enemyRb = enemy.GetComponent<Rigidbody>();
+        Vector3 v = enemyRb.velocity;
+
+        transform.DOMove(enemy.transform.position + v * bulletTime, bulletTime).SetEase(Ease.Linear);
+    }
+
+
     void Update()
     { 
         transform.DOMove(enemy.transform.position, bulletTime).SetEase(Ease.Linear); //Se mueve el objeto que tiene el script hasta la posicion del objeto enemy en un tiempo determinado con arranque y frenado linear
