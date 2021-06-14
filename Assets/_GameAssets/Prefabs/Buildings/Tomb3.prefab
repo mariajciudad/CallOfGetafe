@@ -11,6 +11,10 @@ GameObject:
   - component: {fileID: 1798152009994260624}
   - component: {fileID: 3412473066827276085}
   - component: {fileID: 630360347542498303}
+  - component: {fileID: 910933303012162763}
+  - component: {fileID: 211104086298317702}
+  - component: {fileID: 7256257339100640611}
+  - component: {fileID: 3033928669546652970}
   m_Layer: 0
   m_Name: Tomb3
   m_TagString: Untagged
@@ -81,3 +85,56 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &910933303012162763
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422997935631403562}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.017266154, y: 0.0039200843, z: 0.013398819}
+  m_Center: {x: 0.00021966647, y: 0.0018659165, z: -0.00003010283}
+--- !u!65 &211104086298317702
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422997935631403562}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.011717238, y: 0.0046153697, z: 0.009093609}
+  m_Center: {x: 0.00012398214, y: 0.004509663, z: 0.000017677994}
+--- !u!65 &7256257339100640611
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422997935631403562}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010090812, y: 0.012938786, z: 0.0068931594}
+  m_Center: {x: -0.000115195915, y: 0.0127852205, z: 0.00016117035}
+--- !u!136 &3033928669546652970
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422997935631403562}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.0035140037
+  m_Height: 0.015017002
+  m_Direction: 1
+  m_Center: {x: -0.00054569246, y: 0.025618546, z: 0.00059204106}

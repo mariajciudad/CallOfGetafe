@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 2067689026552583351}
   - component: {fileID: 3106977570985138962}
   - component: {fileID: 935276383037042648}
+  - component: {fileID: 299921092902707070}
+  - component: {fileID: 8283211014198602545}
+  - component: {fileID: 4345403722970904177}
   m_Layer: 0
   m_Name: Tomb6
   m_TagString: Untagged
@@ -81,3 +84,42 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &299921092902707070
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727755643123895821}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.09510269, y: 0.037442207, z: 0.1974762}
+  m_Center: {x: 0.045941543, y: 0.058095362, z: 0.08779373}
+--- !u!65 &8283211014198602545
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727755643123895821}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06861534, y: 0.06195984, z: 0.02953186}
+  m_Center: {x: -0.07742138, y: 0.06929245, z: -0.051535036}
+--- !u!65 &4345403722970904177
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727755643123895821}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.12209549, y: 0.12576008, z: 0.02484054}
+  m_Center: {x: 0.03610306, y: 0.101192474, z: -0.040745165}

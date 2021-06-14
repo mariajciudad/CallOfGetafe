@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 5208535061237490312}
   - component: {fileID: 9216533759765343533}
   - component: {fileID: 6341987288299706855}
+  - component: {fileID: 8379008051548470355}
+  - component: {fileID: 9191037394243262158}
   m_Layer: 0
   m_Name: Tomb1
   m_TagString: Untagged
@@ -81,3 +83,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8379008051548470355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828913946625456178}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.09763805, y: 0.043891273, z: 0.05238035}
+  m_Center: {x: -0.00903944, y: 0.004394276, z: 0.011360434}
+--- !u!65 &9191037394243262158
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828913946625456178}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.10541887, y: 0.05203914, z: 0.007931683}
+  m_Center: {x: -0.0095950365, y: 0.004024239, z: 0.03840008}
