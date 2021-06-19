@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Enemy
   - FxTemporaire
+  - Fire
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
   - PPL

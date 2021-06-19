@@ -31,7 +31,7 @@ public class RaycastGun : MonoBehaviour
                 {
                     Destroy(hit.collider.gameObject); //Se destruye al enemigo         
                                         
-                    Destroy(enemySlider); //Y a su barra de energia
+                    Destroy(enemySlider); //Y a su barra de energia               
                 }
             }
         }
