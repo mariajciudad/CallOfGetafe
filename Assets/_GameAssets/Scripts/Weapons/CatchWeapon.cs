@@ -11,9 +11,8 @@ public class CatchWeapon : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.layer == 10)
-        {
-            other.gameObject.transform.GetComponent<WeaponManager>().EquipWeapon(idWeapon, true);
-
+        {            
+            other.gameObject.transform.GetComponent<WeaponManager>().EquipWeapon(idWeapon);
             Destroy(gameObject.transform.gameObject);
         }
     }

@@ -16,25 +16,23 @@ public class WeaponManager : MonoBehaviour
 
     public int damage;    
 
-
     private void Start()
     {
         // POR BORRAR? damage = actualWeapon.GetComponent<Weapon>().weaponDamage;
-        EquipWeapon(0, true);
+        //POR BORRAR -> EquipWeapon(0, true); (SOLO SIRVE SI QUIERO EMPEZAR CON UN ARMA EQUIPADA)
     } 
 
     void Update()
     {
         CheckChangeWeapon();
     }
-    public void EquipWeapon(int n, bool isCatch)
+    public void EquipWeapon(int n)
     {
         actualWeapon.SetActive(false);
         actualWeapon = weapons[n];
         actualWeapon.SetActive(true);
         availableWeapons[n] = true;
-        damage = actualWeapon.GetComponent<Weapon>().weaponDamage;
-      
+        damage = actualWeapon.GetComponent<Weapon>().weaponDamage;      
     }
 
     void CheckChangeWeapon()
@@ -43,22 +41,19 @@ public class WeaponManager : MonoBehaviour
         {
             if (availableWeapons[0])
             {
-                EquipWeapon(0, false);
+                EquipWeapon(0);
             }
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             if (availableWeapons[1])
             {
-                EquipWeapon(1, false);
+                EquipWeapon(1);
             }
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            if (availableWeapons[2])
+            else
             {
-                EquipWeapon(2, false);
+                print("No tengo más armas");
             }
-        }
+        }        
     }
 }
