@@ -7,25 +7,26 @@ using UnityEngine;
 //----------
 public class WeaponManager : MonoBehaviour
 {
-    [SerializeField] GameObject[] weapons; 
+    [SerializeField] GameObject[] weapons; //Array de GameObjects que contendrá las armas
 
-    public GameObject actualWeapon;
+    public GameObject actualWeapon; //Tendrá el arma que se esté usando
 
-    [SerializeField]
-    bool[] availableWeapons;
+    [SerializeField] bool[] availableWeapons; //Indica si un arma este disponible
 
     public int damage;    
 
     private void Start()
     {
-        // POR BORRAR? damage = actualWeapon.GetComponent<Weapon>().weaponDamage;
-        //POR BORRAR -> EquipWeapon(0, true); (SOLO SIRVE SI QUIERO EMPEZAR CON UN ARMA EQUIPADA)
+        // POR BORRAR? damage = actualWeapon.GetComponent<Weapon>().weaponDamage;     
     } 
 
     void Update()
     {
-        CheckChangeWeapon();
+        ChangeWeapon();
     }
+
+    //Al equipar el player un arma, la que esté usando se desactivará
+    //La que haya recogido o escogido pasará a ser la que use y se activará
     public void EquipWeapon(int n)
     {
         actualWeapon.SetActive(false);
@@ -35,13 +36,18 @@ public class WeaponManager : MonoBehaviour
         damage = actualWeapon.GetComponent<Weapon>().weaponDamage;      
     }
 
-    void CheckChangeWeapon()
+    //Cambiará el arma dependiendo de la tecla pulsada y su posición en el array
+    void ChangeWeapon()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             if (availableWeapons[0])
             {
                 EquipWeapon(0);
+            }
+            else
+            {
+                print("No tengo ningún arma");
             }
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
@@ -52,7 +58,7 @@ public class WeaponManager : MonoBehaviour
             }
             else
             {
-                print("No tengo más armas");
+                print("No tengo ningún arma");
             }
         }        
     }

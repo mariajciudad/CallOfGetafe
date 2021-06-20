@@ -2,33 +2,43 @@
 using System.Collections.Generic;
 using UnityEngine;
 //----------
-//Clase que gestiona el disparo, es decir, lanzamiento del Raycast e impacto 
-//y reducir la munición al disparar. 
+//Clase que gestiona el disparo: lanzamiento del Raycast e impacto y reducir la munición al disparar. 
 //----------
 public class FPSShoot : MonoBehaviour
 {
     [SerializeField] WeaponManager weaponManager;
 
     [SerializeField] LayerMask layerMask;
-           
-    
+
+    [SerializeField] Transform shootPoint;
+
+    int shootDist;
+
+
     void Update()
     {
-        Ray ray= new Ray(transform.position, transform.forward);
+        //Distancia máxima a la que podrá llegar el raycast según el arma
+        shootDist = weaponManager.actualWeapon.GetComponent<Weapon>().shootDistance;
+
+        //Se crea un nuevo raycast desde un GameObject vacío
+        Ray ray= new Ray(shootPoint.transform.position, shootPoint.transform.forward);
         RaycastHit hit;
 
+        //Al pulsar el botón izquierdo del ratón, si el arma tiene balas, se restará una
         if (Input.GetMouseButtonDown(0))
-        {
+        {               
             if (weaponManager.actualWeapon.GetComponent<Weapon>().ammoInMagazine > 0)
-            {
+            {               
                 weaponManager.actualWeapon.GetComponent<Weapon>().ammoInMagazine--;
 
-                if (Physics.Raycast(ray.origin, ray.direction, out hit, 50f, layerMask))
+                //Si el raycast colisiona con los GameObjects que tengan los layers seleccionados, se les reducirá su vida según el daño del arma
+                if (Physics.Raycast(ray.origin, ray.direction, out hit, shootDist, layerMask))
                 {
                     hit.collider.gameObject.GetComponent<Enemy>().RemoveLife(weaponManager.damage);
                 }
             }
         }
-        Debug.DrawRay(ray.origin, ray.direction * 10, Color.red);
+
+        Debug.DrawRay(ray.origin, ray.direction * shootDist, Color.red);
     }       
 }
