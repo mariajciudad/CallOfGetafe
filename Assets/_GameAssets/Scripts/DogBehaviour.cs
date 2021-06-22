@@ -25,9 +25,7 @@ public class DogBehaviour : MonoBehaviour
     private void OnTriggerStay(Collider other)  //El collider trigger se ejecuta indefinidamente
     {
         distance = Vector3.Distance(player.transform.position, transform.position);  //Calcula la distancia entre la posicion del player y la del objeto que tiene el script
-
-        print("La distancia del player hasta el perro es: " + distance);
-
+               
         if (other.gameObject.CompareTag("Player"))
         {
             transform.LookAt(player.transform.position);

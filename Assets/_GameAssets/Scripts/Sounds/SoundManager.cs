@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimalSoundManager : MonoBehaviour
+public class SoundManager : MonoBehaviour
 {
     [SerializeField] AudioSource audioSource;
 
@@ -11,10 +11,14 @@ public class AnimalSoundManager : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.gameObject.layer == 10)
         {
             audioSource.PlayOneShot(audioClip);
-        }
-        
+        }        
+    }
+
+    public void EnemySound()
+    {
+        audioSource.PlayOneShot(audioClip);
     }
 }

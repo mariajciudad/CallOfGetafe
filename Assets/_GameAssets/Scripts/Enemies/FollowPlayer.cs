@@ -5,35 +5,44 @@ using UnityEngine;
 public class FollowPlayer : MonoBehaviour
 {
     [SerializeField] Transform targetToFollow;
-    public float speed;
-
+    public float movementSpeed;
+    public float distanceToFollow;
+    private float distanceToPlayer;
     [SerializeField] Animator animator;
+    public bool isFirstMeeting;
 
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] SoundManager soundManager;
+
+    private void Start()
     {
-        
+        isFirstMeeting = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
+        distanceToPlayer = Vector3.Distance(transform.position, targetToFollow.transform.position);
 
-
-    private void OnTriggerStay(Collider other)  //El collider trigger se ejecuta indefinidamente
-    { 
-        if (other.gameObject.layer == 10)
-        {
+        if (distanceToPlayer <= distanceToFollow)
+        {            
+            transform.LookAt(targetToFollow.transform.position);            
+            transform.position = Vector3.MoveTowards(transform.position, targetToFollow.transform.position, movementSpeed);
             animator.SetBool("Walk", true);
-            transform.position = Vector3.MoveTowards(transform.position, targetToFollow.transform.position, speed);
-            transform.LookAt(targetToFollow.transform.position);
+
+           if (isFirstMeeting)
+           {
+                isFirstMeeting = false;         
+                soundManager.EnemySound();
+           }            
         }
     }
 
+    /*
     private void OnTriggerExit(Collider other)
     {
         animator.SetBool("Walk", false);
     }
+    */
+
+
 }
