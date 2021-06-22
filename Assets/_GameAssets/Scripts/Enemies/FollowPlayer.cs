@@ -24,7 +24,7 @@ public class FollowPlayer : MonoBehaviour
 
     private void OnTriggerStay(Collider other)  //El collider trigger se ejecuta indefinidamente
     { 
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.layer == 10)
         {
             animator.SetBool("Walk", true);
             transform.position = Vector3.MoveTowards(transform.position, targetToFollow.transform.position, speed);
@@ -36,5 +36,4 @@ public class FollowPlayer : MonoBehaviour
     {
         animator.SetBool("Walk", false);
     }
-
 }
