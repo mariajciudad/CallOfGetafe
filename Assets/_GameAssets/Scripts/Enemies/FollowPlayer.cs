@@ -27,7 +27,7 @@ public class FollowPlayer : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             animator.SetBool("Walk", true);
-            transform.position = Vector3.MoveTowards(transform.position, targetToFollow.transform.position, 0.05f);
+            transform.position = Vector3.MoveTowards(transform.position, targetToFollow.transform.position, speed);
             transform.LookAt(targetToFollow.transform.position);
         }
     }
