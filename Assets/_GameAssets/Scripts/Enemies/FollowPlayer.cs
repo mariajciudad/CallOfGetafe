@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
-    [SerializeField] Transform targetToFollow;
-    public float movementSpeed;
-    public float distanceToFollow;
+    [SerializeField] Transform targetToFollow;    
     private float distanceToPlayer;
-    [SerializeField] Animator animator;
-    public bool isFirstMeeting;
+    public float distanceToFollow;
+    public float movementSpeed;
 
+    [SerializeField] Animator animator;
+   
+    public bool isFirstMeeting;
     [SerializeField] SoundManager soundManager;
 
     private void Start()
@@ -18,14 +19,14 @@ public class FollowPlayer : MonoBehaviour
         isFirstMeeting = true;
     }
 
-    // Update is called once per frame
     void Update()
     {
         distanceToPlayer = Vector3.Distance(transform.position, targetToFollow.transform.position);
 
         if (distanceToPlayer <= distanceToFollow)
         {            
-            transform.LookAt(targetToFollow.transform.position);            
+            transform.LookAt(targetToFollow.transform.position);   
+            
             transform.position = Vector3.MoveTowards(transform.position, targetToFollow.transform.position, movementSpeed);
             animator.SetBool("Walk", true);
 
@@ -34,7 +35,12 @@ public class FollowPlayer : MonoBehaviour
                 isFirstMeeting = false;         
                 soundManager.EnemySound();
            }            
+        } 
+        else
+        {
+            animator.SetBool("Walk", false);
         }
+
     }
 
     /*

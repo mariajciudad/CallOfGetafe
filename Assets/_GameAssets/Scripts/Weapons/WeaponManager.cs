@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 //----------
 //Clase que gestiona el cambio de armas y el recogerlas del suelo. 
 //Se comunica con las armas para su actualización.
@@ -13,10 +14,15 @@ public class WeaponManager : MonoBehaviour
 
     [SerializeField] bool[] availableWeapons; //Indica si un arma este disponible
 
-    public int damage;    
+    public int damage;
+
+    [SerializeField] GameObject crossHair;
+    private bool crossHairIsActive;
 
     private void Start()
     {
+        crossHair.SetActive(false);
+        crossHairIsActive = true;
         // POR BORRAR? damage = actualWeapon.GetComponent<Weapon>().weaponDamage;     
     } 
 
@@ -33,7 +39,14 @@ public class WeaponManager : MonoBehaviour
         actualWeapon = weapons[n];
         actualWeapon.SetActive(true);
         availableWeapons[n] = true;
-        damage = actualWeapon.GetComponent<Weapon>().weaponDamage;      
+        damage = actualWeapon.GetComponent<Weapon>().weaponDamage;    
+        
+        //Activa el crosshair al recoger la primera arma
+        if (crossHairIsActive)
+        {
+            crossHairIsActive = false;
+            crossHair.SetActive(true);
+        }
     }
 
     //Cambiará el arma dependiendo de la tecla pulsada y su posición en el array
