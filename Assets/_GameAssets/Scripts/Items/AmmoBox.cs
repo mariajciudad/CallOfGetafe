@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Clase que gestiona las cajas de munición
 public class AmmoBox : MonoBehaviour
 {
     [SerializeField] int bullets;

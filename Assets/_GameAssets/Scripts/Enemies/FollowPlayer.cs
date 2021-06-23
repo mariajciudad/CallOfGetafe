@@ -42,13 +42,4 @@ public class FollowPlayer : MonoBehaviour
         }
 
     }
-
-    /*
-    private void OnTriggerExit(Collider other)
-    {
-        animator.SetBool("Walk", false);
-    }
-    */
-
-
 }
