@@ -3,28 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+//Gestiona el comportamiento de los enemigos tontos
 public class CrazyAgent : MonoBehaviour
 {
     public NavMeshAgent agent;
-    public Transform[] targets;
+    public Transform[] targets;  //Array con los puntos a los que se dirigirá el enemigo Agent
+    [SerializeField] public Transform actualTarget;
+    [SerializeField] public float agentVelocity;
+    [SerializeField] public int lastPosition;
+    EnemyAnimations enemyAnimations;
 
-    [SerializeField]
-    public Transform actualTarget;
-
-    [SerializeField]
-    public float agentVelocity;
-
-    [SerializeField]
-    public int lastPosition;
-
-    // Start is called before the first frame update
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
+        enemyAnimations = EnemyAnimations.FindObjectOfType<EnemyAnimations>();
     }
 
     private void Start()
     {
+        enemyAnimations.ChangeStateToWalk();
         agent.speed = agentVelocity;
         ChangeDestination();
     }
@@ -32,6 +29,7 @@ public class CrazyAgent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        enemyAnimations.ChangeStateToWalk();
         agent.SetDestination(actualTarget.position);
     }
 
@@ -49,6 +47,7 @@ public class CrazyAgent : MonoBehaviour
             agent.isStopped = true;
             lastPosition = temp;
             StartCoroutine(CoroutineStopSliding(temp));
+            enemyAnimations.ChangeStateToWalk();
         }
     }
 

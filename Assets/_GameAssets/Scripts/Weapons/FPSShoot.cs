@@ -14,11 +14,6 @@ public class FPSShoot : MonoBehaviour
 
     int shootDist;
 
-
-
-    [SerializeField] int danyo;
-
-
     void Update()
     {
         //Distancia máxima a la que podrá llegar el raycast según el arma
@@ -38,9 +33,8 @@ public class FPSShoot : MonoBehaviour
                 //Si el raycast colisiona con los GameObjects que tengan los layers seleccionados, se les reducirá su vida según el daño del arma
                 if (Physics.Raycast(ray.origin, ray.direction, out hit, shootDist, layerMask))
                 {
-                    Debug.Log("He disparado a un enemigo");
-                    danyo = danyo + 1;
-                    //hit.collider.gameObject.GetComponent<Enemy>().RemoveLife(weaponManager.damage);
+                    Debug.Log("He disparado a un enemigo");    
+                    hit.collider.gameObject.GetComponent<EnemyLife>().RemoveLife(weaponManager.damage);
                 }
             }
         }
