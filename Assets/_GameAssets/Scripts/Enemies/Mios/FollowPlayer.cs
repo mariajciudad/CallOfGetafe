@@ -7,11 +7,9 @@ public class FollowPlayer : MonoBehaviour
     [SerializeField] Transform targetToFollow;    
     private float distanceToPlayer;
     public float distanceToFollow;
-    public float movementSpeed;
-
-    [SerializeField] Animator animator;
-   
+    public float movementSpeed; 
     public bool isFirstMeeting;
+    [SerializeField] EnemyAnimations enemyAnimations;
     [SerializeField] SoundManager soundManager;
 
     private void Start()
@@ -28,7 +26,8 @@ public class FollowPlayer : MonoBehaviour
             transform.LookAt(targetToFollow.transform.position);   
             
             transform.position = Vector3.MoveTowards(transform.position, targetToFollow.transform.position, movementSpeed);
-            animator.SetBool("Walk", true);
+
+            enemyAnimations.ChangeStateToWalk();
 
            if (isFirstMeeting)
            {
@@ -38,8 +37,7 @@ public class FollowPlayer : MonoBehaviour
         } 
         else
         {
-            animator.SetBool("Walk", false);
+            enemyAnimations.ChangeStateToIdle();
         }
-
     }
 }

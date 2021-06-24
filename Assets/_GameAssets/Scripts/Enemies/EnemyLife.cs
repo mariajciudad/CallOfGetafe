@@ -3,47 +3,39 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Enemy : MonoBehaviour
+public class EnemyLife : MonoBehaviour
 {
-    [SerializeField] int enemyLife;
+    [SerializeField] int life;
     Rigidbody rb;
     [SerializeField] Material material;
     [SerializeField] Renderer ms;
-    Agente ag;
+    CrazyAgent ag;
     NavMeshAgent nMA;
+    [SerializeField] EnemyVision enemyVision;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
         ms = GetComponent<Renderer>();
-        ag = GetComponent<Agente>();
+        ag = GetComponent<CrazyAgent>();
+        enemyVision = GetComponent<EnemyVision>();
         nMA = GetComponent<NavMeshAgent>();
     }
 
     public void RemoveLife(int damage)
     {
-        enemyLife -= damage;
+        life -= damage;
 
-        if (enemyLife <= 0)
-        {           
+        if (life <= 0)
+        {
+            enemyVision.enabled = false;
             DesactiveParameters();
         }
     }
-
-    public void ExplosionEffect()
-    {       
-        DesactiveParameters();
-        rb.AddForce(new Vector3(Random.Range(-50, 50), Random.Range(10, 700), Random.Range(-500, 50)));
-    }
-
-    public void ExplosionEffect(Vector3 direction)
-    {        
-        DesactiveParameters();
-        rb.AddForce(direction/*+ new Vector3(0,2,0)*/ * 100);
-    }
-
+    
     void DesactiveParameters()
     {
+        //Llamada al método EnemyDie de la clase EnemyAnimation
         rb.isKinematic = false;
         ag.enabled = false;
         ms.material = material;

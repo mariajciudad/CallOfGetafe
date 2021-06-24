@@ -10174,8 +10174,8 @@ MonoBehaviour:
   targetToFollow: {fileID: 1447454591}
   distanceToFollow: 0
   movementSpeed: 0
-  animator: {fileID: 0}
   isFirstMeeting: 0
+  enemyAnimations: {fileID: 0}
   soundManager: {fileID: 0}
 --- !u!65 &57757143
 BoxCollider:
@@ -12947,8 +12947,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 200834243}
-  m_LocalRotation: {x: 0.025376165, y: 0.097303994, z: 0.0024819614, w: -0.99492806}
-  m_LocalPosition: {x: 278.79907, y: -214.9254, z: -784.798}
+  m_LocalRotation: {x: -0.14721806, y: 0.69161177, z: 0.69161177, w: 0.14721806}
+  m_LocalPosition: {x: 250.99918, y: -164.62495, z: -28.837326}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 435006176}
@@ -24131,8 +24131,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686537038}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.198822, y: -15.424944, z: -217.9429}
+  m_LocalRotation: {x: -0.14721806, y: 0.69161177, z: 0.69161177, w: 0.14721806}
+  m_LocalPosition: {x: 250.99918, y: -164.62495, z: -28.837326}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 435006176}
@@ -40071,8 +40071,8 @@ MonoBehaviour:
   targetToFollow: {fileID: 1612425283}
   distanceToFollow: 10
   movementSpeed: 0.018
-  animator: {fileID: 1477047000}
   isFirstMeeting: 0
+  enemyAnimations: {fileID: 1477047006}
   soundManager: {fileID: 1477047004}
 --- !u!136 &1477047002
 CapsuleCollider:
@@ -40214,6 +40214,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1477047006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477046999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baf6cae4c33d5d342b0dd82508e3aa65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1477047000}
 --- !u!1001 &1494327599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48682,8 +48695,8 @@ MonoBehaviour:
   targetToFollow: {fileID: 1447454591}
   distanceToFollow: 0
   movementSpeed: 0
-  animator: {fileID: 1477047000}
   isFirstMeeting: 0
+  enemyAnimations: {fileID: 0}
   soundManager: {fileID: 0}
 --- !u!4 &1953319204 stripped
 Transform:
