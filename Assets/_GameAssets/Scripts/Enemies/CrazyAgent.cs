@@ -11,12 +11,12 @@ public class CrazyAgent : MonoBehaviour
     [SerializeField] public Transform actualTarget;
     [SerializeField] public float agentVelocity;
     [SerializeField] public int lastPosition;
-    EnemyAnimations enemyAnimations;
+    [SerializeField] EnemyAnimations enemyAnimations;
 
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
-        enemyAnimations = EnemyAnimations.FindObjectOfType<EnemyAnimations>();
+        enemyAnimations = GetComponent<EnemyAnimations>();
     }
 
     private void Start()
