@@ -90,6 +90,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4504707652980433811}
+  - component: {fileID: 6933269824745144491}
   m_Layer: 0
   m_Name: Lamp4
   m_TagString: Untagged
@@ -114,6 +115,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6933269824745144491
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3875416829288626473}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2735493, y: 1.9415156, z: 1.1770121}
+  m_Center: {x: -0.032221474, y: 0.9696865, z: 0.016098022}
 --- !u!1 &4170397924677587476
 GameObject:
   m_ObjectHideFlags: 0

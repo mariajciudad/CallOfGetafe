@@ -7,7 +7,7 @@ using UnityEngine.AI;
 public class CrazyAgent : MonoBehaviour
 {
     public NavMeshAgent agent;
-    public Transform[] targets;  //Array con los puntos a los que se dirigirá el enemigo Agent
+    public GameObject[] targets;  //Array con los puntos a los que se dirigirá el enemigo Agent
     [SerializeField] public Transform actualTarget;
     [SerializeField] public float agentVelocity;
     [SerializeField] public int lastPosition;
@@ -16,6 +16,9 @@ public class CrazyAgent : MonoBehaviour
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
+        targets = GameObject.FindGameObjectsWithTag("Destiny");
+        actualTarget = targets[0].transform;
+        actualTarget = targets[Random.Range(0, targets.Length)].transform;
         enemyAnimations = GetComponent<EnemyAnimations>();
     }
 

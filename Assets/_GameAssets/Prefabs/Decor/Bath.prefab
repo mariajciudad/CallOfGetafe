@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4376966619966235303}
   - component: {fileID: 797630153992400130}
   - component: {fileID: 3239556185401825736}
+  - component: {fileID: 2438995088361109884}
   m_Layer: 0
   m_Name: Bath
   m_TagString: Untagged
@@ -81,3 +82,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2438995088361109884
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4032352654463350813}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7144821, y: 0.5254221, z: 0.7414994}
+  m_Center: {x: 0.0034574668, y: 0.25932646, z: 0.00000003973643}
