@@ -2,20 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Al llegar un enemigo a un punto de destino, se dirige hacia otro aleatoriamente
 public class Destiny : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.layer == 3)
         {
-            Debug.Log("xxx");
-            //if (other.gameObject.GetComponent<SmartAgent>() != null)
-            //{
-            //    other.gameObject.GetComponent<SmartAgent>().ChangeDestination();
-            //}
-            //{
-                other.gameObject.GetComponent<CrazyAgent>().ChangeDestination();
-            //}
+            Debug.Log("EL ZOMBIE HA LLEGADO AL PUNTO Y VA A CAMBIAR DE DESTINO");
+            other.gameObject.GetComponent<CrazyAgent>().ChangeDestination();            
         }
     }
 }

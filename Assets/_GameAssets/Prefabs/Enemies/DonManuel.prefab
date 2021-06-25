@@ -1315,11 +1315,10 @@ GameObject:
   - component: {fileID: 6745267935211291224}
   - component: {fileID: 6745267935211291225}
   - component: {fileID: 6745267935211291230}
-  - component: {fileID: 6745267935211291229}
   - component: {fileID: 6745267935211291228}
   - component: {fileID: 6745267935211291171}
-  - component: {fileID: 6745267935211291170}
   - component: {fileID: 6278987153918847238}
+  - component: {fileID: 905310887351930407}
   m_Layer: 3
   m_Name: DonManuel
   m_TagString: Untagged
@@ -1507,27 +1506,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visionDistance: 3
   damage: 20
---- !u!114 &6745267935211291229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5862957339683274501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7064b23c99aed0443886930c8360ed36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agent: {fileID: 6745267935211291171}
-  targets:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  actualTarget: {fileID: 6491578289741063615}
-  agentVelocity: 5
-  lastPosition: 0
-  enemyAnimations: {fileID: 0}
 --- !u!114 &6745267935211291228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1565,24 +1543,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &6745267935211291170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5862957339683274501}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d9bf265f887dd740995f055517efeb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  randomRoute: 0
-  patrolPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  currentPoint: 0
 --- !u!114 &6278987153918847238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1596,6 +1556,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 934097641092595653}
+--- !u!114 &905310887351930407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5862957339683274501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7064b23c99aed0443886930c8360ed36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 6745267935211291171}
+  targets: []
+  actualTarget: {fileID: 0}
+  agentVelocity: 4
+  lastPosition: 0
+  enemyAnimations: {fileID: 6278987153918847238}
 --- !u!1 &5899115471979065702
 GameObject:
   m_ObjectHideFlags: 0

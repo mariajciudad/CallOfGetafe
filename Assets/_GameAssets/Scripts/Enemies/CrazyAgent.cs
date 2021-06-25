@@ -7,7 +7,7 @@ using UnityEngine.AI;
 public class CrazyAgent : MonoBehaviour
 {
     public NavMeshAgent agent;
-    public GameObject[] targets;  //Array con los puntos a los que se dirigirá el enemigo Agent
+    public GameObject[] targets;  //Array vacío con los puntos de destino a los que se dirigirá los agentes
     [SerializeField] public Transform actualTarget;
     [SerializeField] public float agentVelocity;
     [SerializeField] public int lastPosition;
@@ -16,10 +16,11 @@ public class CrazyAgent : MonoBehaviour
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
-        targets = GameObject.FindGameObjectsWithTag("Destiny");
+        targets = GameObject.FindGameObjectsWithTag("Destiny"); //Rellena el array con los puntos de destino
+        enemyAnimations = GetComponent<EnemyAnimations>();
         actualTarget = targets[0].transform;
         //Empezando el patrullaje en un punto alternativo: actualTarget = targets[Random.Range(0,targets.Length)].transform;
-        enemyAnimations = GetComponent<EnemyAnimations>();
+      
     }
 
     private void Start()
@@ -29,7 +30,6 @@ public class CrazyAgent : MonoBehaviour
         ChangeDestination();
     }
 
-    // Update is called once per frame
     void Update()
     {
         enemyAnimations.ChangeStateToWalk();
@@ -54,7 +54,8 @@ public class CrazyAgent : MonoBehaviour
         }
     }
 
-    public IEnumerator CoroutineStopSliding(int t) //Función para que no se pasen de frenada.
+    //Función para que no se pasen de frenada
+    public IEnumerator CoroutineStopSliding(int t) 
     {
         yield return null;     
         actualTarget = targets[t].transform;
