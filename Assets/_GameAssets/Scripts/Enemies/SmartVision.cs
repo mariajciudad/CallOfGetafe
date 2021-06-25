@@ -31,9 +31,19 @@ public class SmartVision : EnemyVision
         Debug.DrawRay(ray.origin, ray.direction * visionDistance, Color.red);
     }
 
+    //SOLO LE DA UN GOLPE Y YA ESTA, HASTA QUE VUELVA A CHOCAR, FUNCIONA CON EL OTRO PLAYER EL DEL RIGIDBODY
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.layer == 10)
+        {
+            other.gameObject.GetComponent<PlayerHealth>().RemoveLife(damage);
+            Debug.Log("Enemigo ha chocado con player");
+            Debug.Log("El enemigo le ha quitado al player de vida: " + damage);
+        }
+    }
 
-
-    private void OnCollisionEnter(Collision collision)
+    /*  FUNCIONA PERO LE QUITA MUCHA VIDA AL PLAYER HASTA MATARLO, EN PLAN METRALLETA
+     * private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.layer == 10)
         {
@@ -41,5 +51,7 @@ public class SmartVision : EnemyVision
             Debug.Log("Enemigo ha chocado con player");
             Debug.Log("El enemigo le ha quitado al player de vida: " + damage);
         }
-    }   
+    }
+    */
 }
+   
