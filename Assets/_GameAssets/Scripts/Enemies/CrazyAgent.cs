@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 
 //Gestiona el comportamiento de los enemigos tontos
+//Los enemigos tontos se dirigen a los puntos de destino aleatoriamente y no persiguen al player
 public class CrazyAgent : MonoBehaviour
 {
     public NavMeshAgent agent;

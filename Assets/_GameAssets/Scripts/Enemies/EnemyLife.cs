@@ -45,18 +45,4 @@ public class EnemyLife : MonoBehaviour
         crazyAgent.enabled = false;  
         navMeshAgent.enabled = false;
     }
-
-    /*
-    public void ExplosionEffect()
-    {
-        DesactiveParameters();
-        rb.AddForce(new Vector3(Random.Range(-50, 50), Random.Range(10, 700), Random.Range(-500, 50)));
-    }
-
-    public void ExplosionEffect(Vector3 direction)
-    {
-        DesactiveParameters();
-        rb.AddForce(direction/*+ new Vector3(0,2,0)*/ /** 100);
-    }
-    */
 }
