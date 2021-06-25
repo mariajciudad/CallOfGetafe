@@ -1571,7 +1571,7 @@ MonoBehaviour:
   agent: {fileID: 6745267935211291171}
   targets: []
   actualTarget: {fileID: 0}
-  agentVelocity: 3
+  agentVelocity: 2
   lastPosition: -1
   enemyAnimations: {fileID: 6278987153918847238}
 --- !u!1 &5899115471979065702
