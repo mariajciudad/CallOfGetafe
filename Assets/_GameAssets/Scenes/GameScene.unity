@@ -308,6 +308,10 @@ PrefabInstance:
       value: Sunflower (39)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -423,6 +427,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -762,6 +770,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2149,6 +2161,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11659,6 +11675,10 @@ PrefabInstance:
       value: Tomato
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -11679,6 +11699,10 @@ PrefabInstance:
     - target: {fileID: 7464586599444549914, guid: 5690186df684d9f40bf23eb398438349, type: 3}
       propertyPath: m_Name
       value: Bucket
+      objectReference: {fileID: 0}
+    - target: {fileID: 7464586599444549914, guid: 5690186df684d9f40bf23eb398438349, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8917961999536898489, guid: 5690186df684d9f40bf23eb398438349, type: 3}
       propertyPath: m_RootOrder
@@ -11803,6 +11827,10 @@ PrefabInstance:
       value: Tomato (60)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -11883,6 +11911,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12603,6 +12635,10 @@ PrefabInstance:
       value: Tomato (40)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -12618,6 +12654,10 @@ PrefabInstance:
     - target: {fileID: 242680349089254504, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
       propertyPath: m_Name
       value: Sink (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 242680349089254504, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 582649703470896850, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
       propertyPath: m_RootOrder
@@ -12674,6 +12714,14 @@ PrefabInstance:
     - target: {fileID: 582649703470896850, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7068046970363025370, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7675496202639144193, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
@@ -12744,6 +12792,10 @@ PrefabInstance:
     - target: {fileID: 6574131350233053021, guid: 0941f956cd94bb149a4f278486f194ef, type: 3}
       propertyPath: m_Name
       value: Windmill
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574131350233053021, guid: 0941f956cd94bb149a4f278486f194ef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0941f956cd94bb149a4f278486f194ef, type: 3}
@@ -12932,6 +12984,10 @@ PrefabInstance:
       value: Fence (8)
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -13000,6 +13056,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13117,6 +13177,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13461,6 +13525,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13908,6 +13976,10 @@ PrefabInstance:
       value: Corn (37)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -13927,6 +13999,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14004,6 +14080,10 @@ PrefabInstance:
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_Name
       value: Fence (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14433,6 +14513,10 @@ PrefabInstance:
       value: Corn (50)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -14498,6 +14582,10 @@ PrefabInstance:
       value: Corn (55)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -14535,7 +14623,7 @@ Transform:
   - {fileID: 1178651757}
   - {fileID: 170502838}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &93388502 stripped
 Transform:
@@ -14776,6 +14864,10 @@ PrefabInstance:
       value: Corn (52)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -14880,6 +14972,10 @@ PrefabInstance:
       value: Fence (10)
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -14948,6 +15044,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15077,6 +15177,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17418,6 +17522,10 @@ PrefabInstance:
       value: Tomato (21)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -17481,6 +17589,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17822,6 +17934,10 @@ PrefabInstance:
       value: Sunflower (53)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -17893,6 +18009,10 @@ PrefabInstance:
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_Name
       value: Fence (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18471,6 +18591,10 @@ PrefabInstance:
       value: Tomato (28)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -18705,6 +18829,10 @@ PrefabInstance:
       value: Corn (17)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -18775,6 +18903,10 @@ PrefabInstance:
       value: Corn (43)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -18794,6 +18926,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18923,6 +19059,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19648,6 +19788,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -20810,6 +20954,10 @@ PrefabInstance:
       value: Tomato (14)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -21153,6 +21301,10 @@ PrefabInstance:
       value: Fence (17)
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -21431,6 +21583,10 @@ PrefabInstance:
       value: Corn (23)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -21455,6 +21611,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21856,6 +22016,10 @@ PrefabInstance:
       value: FirstAidKitSmall (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2308360658904858971, guid: eccb03b78e51dc94aad045a2cde5147c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308360658904858971, guid: eccb03b78e51dc94aad045a2cde5147c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -22155,6 +22319,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22509,6 +22677,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22906,6 +23078,10 @@ PrefabInstance:
       value: Tomato (7)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -22988,6 +23164,10 @@ PrefabInstance:
       value: Tomato (34)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -23012,6 +23192,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -23424,6 +23608,10 @@ PrefabInstance:
       value: Sunflower (63)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -23669,6 +23857,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -24106,6 +24298,10 @@ PrefabInstance:
       value: Corn (54)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -24423,6 +24619,10 @@ PrefabInstance:
       value: Corn (34)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -24620,6 +24820,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -24891,6 +25095,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -25271,6 +25479,10 @@ PrefabInstance:
       value: Corn (32)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -25505,6 +25717,10 @@ PrefabInstance:
     - target: {fileID: 1723214577645165319, guid: 041b4d76ec1b6cb45857ee51000cf279, type: 3}
       propertyPath: m_Name
       value: Water Holder (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1723214577645165319, guid: 041b4d76ec1b6cb45857ee51000cf279, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5823569567563497609, guid: 041b4d76ec1b6cb45857ee51000cf279, type: 3}
       propertyPath: m_RootOrder
@@ -26332,6 +26548,10 @@ PrefabInstance:
       value: Corn (45)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -26395,6 +26615,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -27279,6 +27503,10 @@ PrefabInstance:
       value: Sunflower (46)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -28022,6 +28250,10 @@ PrefabInstance:
       value: Corn (7)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -28545,7 +28777,7 @@ Transform:
   - {fileID: 435462860}
   - {fileID: 705507995}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &435462858
 GameObject:
@@ -28662,6 +28894,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -28906,6 +29142,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -29697,6 +29937,10 @@ PrefabInstance:
       value: Fence
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -29760,6 +30004,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -29882,6 +30130,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -30039,6 +30291,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -30531,6 +30787,10 @@ PrefabInstance:
       value: Tomato (55)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -30596,6 +30856,10 @@ PrefabInstance:
       value: Corn (21)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -30659,6 +30923,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -31213,6 +31481,10 @@ PrefabInstance:
       value: Corn (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -31293,6 +31565,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -32379,6 +32655,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -33493,6 +33773,10 @@ PrefabInstance:
       value: Corn (59)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -33585,6 +33869,10 @@ PrefabInstance:
       value: Tomato (51)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -33660,6 +33948,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -33793,6 +34085,10 @@ PrefabInstance:
       value: Corn (31)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -33858,6 +34154,10 @@ PrefabInstance:
       value: Corn (24)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -33921,6 +34221,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -34204,6 +34508,10 @@ PrefabInstance:
     - target: {fileID: 6115030765285156532, guid: 3c1296a8c334eda498ce8ba5d28eaf7a, type: 3}
       propertyPath: m_Name
       value: FirstAidKitBig (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6115030765285156532, guid: 3c1296a8c334eda498ce8ba5d28eaf7a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6115030765285156532, guid: 3c1296a8c334eda498ce8ba5d28eaf7a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -34596,6 +34904,10 @@ PrefabInstance:
       value: Sunflower (13)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -34980,6 +35292,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -35507,6 +35823,10 @@ PrefabInstance:
       value: Tomato (45)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -35530,6 +35850,10 @@ PrefabInstance:
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_Name
       value: Fence (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -35830,7 +36154,7 @@ Transform:
   - {fileID: 2066417257}
   - {fileID: 17549909}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &676966383 stripped
 Transform:
@@ -35909,6 +36233,10 @@ PrefabInstance:
       value: Tomato (29)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -35928,6 +36256,10 @@ PrefabInstance:
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_Name
       value: Fence (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -36432,8 +36764,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686537038}
-  m_LocalRotation: {x: -0.20089728, y: 0.7142608, z: 0.22753596, w: 0.630634}
-  m_LocalPosition: {x: 157.8313, y: -19.41071, z: -163.35123}
+  m_LocalRotation: {x: 0.07271478, y: 0.90443265, z: 0.38388005, w: -0.17131913}
+  m_LocalPosition: {x: 169.16013, y: -28.94651, z: -156.60756}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 435006176}
@@ -36866,7 +37198,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 1.8, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &693497174
 GameObject:
@@ -37253,6 +37585,10 @@ PrefabInstance:
       value: Tomato (38)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -37591,6 +37927,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -38346,6 +38686,10 @@ PrefabInstance:
       value: Corn (16)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -38365,6 +38709,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -38487,6 +38835,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -39353,7 +39705,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &740392276
 PrefabInstance:
@@ -39427,6 +39779,10 @@ PrefabInstance:
       value: Tomato (27)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -39490,6 +39846,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -39621,6 +39981,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -39942,7 +40306,7 @@ Transform:
   m_LocalScale: {x: 0.4, y: 1.8, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &775420808
 PrefabInstance:
@@ -40002,6 +40366,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -40595,6 +40963,10 @@ PrefabInstance:
       value: Tomato (16)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -40614,6 +40986,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -41066,6 +41442,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -41670,6 +42050,10 @@ PrefabInstance:
       value: Sunflower (32)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -41815,7 +42199,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &831449083
 Transform:
   m_ObjectHideFlags: 0
@@ -41828,7 +42212,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &833029195
 PrefabInstance:
@@ -41844,6 +42228,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -42259,6 +42647,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -43149,6 +43541,10 @@ PrefabInstance:
       value: Sunflower (65)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -43770,6 +44166,10 @@ PrefabInstance:
       value: Fence (11)
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -43838,6 +44238,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -45040,6 +45444,10 @@ PrefabInstance:
       value: Tomato (35)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -45155,6 +45563,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -45284,6 +45696,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -45999,6 +46415,10 @@ PrefabInstance:
       value: Tomato (24)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -46116,6 +46536,10 @@ PrefabInstance:
       value: Corn (51)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -46135,6 +46559,10 @@ PrefabInstance:
     - target: {fileID: 7235356219082090941, guid: 40c56b1e04388f84d8c16aea70992500, type: 3}
       propertyPath: m_Name
       value: DesertEagle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235356219082090941, guid: 40c56b1e04388f84d8c16aea70992500, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008234156083213063, guid: 40c56b1e04388f84d8c16aea70992500, type: 3}
       propertyPath: m_RootOrder
@@ -46780,7 +47208,7 @@ Transform:
   m_Children:
   - {fileID: 788741453}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &963137575
 Mesh:
@@ -47013,6 +47441,10 @@ PrefabInstance:
       value: FirstAidKitBig
       objectReference: {fileID: 0}
     - target: {fileID: 6115030765285156532, guid: 3c1296a8c334eda498ce8ba5d28eaf7a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6115030765285156532, guid: 3c1296a8c334eda498ce8ba5d28eaf7a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -47219,6 +47651,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -47836,6 +48272,10 @@ PrefabInstance:
       value: Tomato (64)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -47899,6 +48339,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -47976,6 +48420,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -48410,6 +48858,10 @@ PrefabInstance:
       value: Sunflower (38)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -48647,6 +49099,10 @@ PrefabInstance:
       value: Sunflower (12)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -48762,6 +49218,10 @@ PrefabInstance:
     - target: {fileID: 2157256695643754495, guid: 36d6c8c5e795c1c48807a011f2f25a26, type: 3}
       propertyPath: m_Name
       value: FenceDoor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157256695643754495, guid: 36d6c8c5e795c1c48807a011f2f25a26, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2157256695643754495, guid: 36d6c8c5e795c1c48807a011f2f25a26, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -49109,6 +49569,10 @@ PrefabInstance:
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_Name
       value: Fence (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -49643,6 +50107,10 @@ PrefabInstance:
       value: Corn (60)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -49720,6 +50188,10 @@ PrefabInstance:
       value: Tomato (54)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -49739,6 +50211,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -49936,6 +50412,10 @@ PrefabInstance:
       value: Tomato (25)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -50057,6 +50537,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -50798,6 +51282,10 @@ PrefabInstance:
       value: Box (3)
       objectReference: {fileID: 0}
     - target: {fileID: 6125640629227732028, guid: a76656d84ff6cdf4d839cfc2bd288ed2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125640629227732028, guid: a76656d84ff6cdf4d839cfc2bd288ed2, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -51255,6 +51743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lamp3
       objectReference: {fileID: 0}
+    - target: {fileID: 8025278925835993004, guid: 8e1ed0d87301e5b4e998d3463cbb8337, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e1ed0d87301e5b4e998d3463cbb8337, type: 3}
 --- !u!1001 &1103844353
@@ -51271,6 +51763,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -51344,6 +51840,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -51865,7 +52365,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7211481285243544854, guid: 8e1ed0d87301e5b4e998d3463cbb8337, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7211481285243544854, guid: 8e1ed0d87301e5b4e998d3463cbb8337, type: 3}
       propertyPath: m_LocalPosition.x
@@ -51927,6 +52427,10 @@ PrefabInstance:
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_Name
       value: Fence (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -52044,7 +52548,7 @@ Transform:
   - {fileID: 208446157}
   - {fileID: 1276115900}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1122853688
 GameObject:
@@ -52817,6 +53321,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -53630,6 +54138,10 @@ PrefabInstance:
       value: Tomato (31)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -53693,6 +54205,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -54031,6 +54547,10 @@ PrefabInstance:
       value: Tomato (43)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -54297,6 +54817,10 @@ PrefabInstance:
       value: Sunflower (17)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -54424,6 +54948,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -54862,6 +55390,10 @@ PrefabInstance:
       value: Box (2)
       objectReference: {fileID: 0}
     - target: {fileID: 6125640629227732028, guid: a76656d84ff6cdf4d839cfc2bd288ed2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125640629227732028, guid: a76656d84ff6cdf4d839cfc2bd288ed2, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -54998,6 +55530,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -55948,7 +56484,7 @@ Transform:
   - {fileID: 1411258962}
   - {fileID: 2055518383}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1218348032
 GameObject:
@@ -56101,6 +56637,10 @@ PrefabInstance:
       value: Tomato (22)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -56221,6 +56761,10 @@ PrefabInstance:
       value: Water Holder
       objectReference: {fileID: 0}
     - target: {fileID: 1723214577645165319, guid: 041b4d76ec1b6cb45857ee51000cf279, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1723214577645165319, guid: 041b4d76ec1b6cb45857ee51000cf279, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -56307,6 +56851,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -56448,6 +56996,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -57653,6 +58205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lamp2
       objectReference: {fileID: 0}
+    - target: {fileID: 6969677935607944338, guid: 2550594acd30ed44597eb9fbd2638142, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7778443932072562216, guid: 2550594acd30ed44597eb9fbd2638142, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -58627,6 +59183,10 @@ PrefabInstance:
       value: Fence (4)
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -59346,6 +59906,10 @@ PrefabInstance:
       value: Sunflower (3)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -59747,6 +60311,10 @@ PrefabInstance:
       value: Sunflower (31)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -59915,6 +60483,10 @@ PrefabInstance:
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_Name
       value: Fence (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -60274,6 +60846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lamp5
       objectReference: {fileID: 0}
+    - target: {fileID: 6757961892190844487, guid: a666ac855d0eebf4093c5671e24407e4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a666ac855d0eebf4093c5671e24407e4, type: 3}
 --- !u!1001 &1299455737
@@ -60334,6 +60910,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -60399,6 +60979,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -60782,6 +61366,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -61326,6 +61914,10 @@ PrefabInstance:
       value: Corn (44)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -61401,6 +61993,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -61786,6 +62382,10 @@ PrefabInstance:
       value: Corn (10)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -61905,7 +62505,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1340288811 stripped
 Transform:
@@ -62364,6 +62964,10 @@ PrefabInstance:
       value: Sunflower (2)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -62783,6 +63387,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -63213,6 +63821,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -64080,6 +64692,10 @@ PrefabInstance:
       value: Corn (61)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -64374,6 +64990,10 @@ PrefabInstance:
       value: Corn (20)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -64393,6 +65013,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -64515,6 +65139,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -64768,6 +65396,10 @@ PrefabInstance:
       value: Tomato (3)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -64836,6 +65468,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -64970,6 +65606,10 @@ PrefabInstance:
       value: Corn (62)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -65092,6 +65732,10 @@ PrefabInstance:
       value: Corn (63)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -65111,6 +65755,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -65244,6 +65892,10 @@ PrefabInstance:
       value: AmmoBoxShotgun
       objectReference: {fileID: 0}
     - target: {fileID: 3255091481030041819, guid: ee1ee12c4fc44c74a9304efda45b5a50, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255091481030041819, guid: ee1ee12c4fc44c74a9304efda45b5a50, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -65295,6 +65947,10 @@ PrefabInstance:
     - target: {fileID: 2308360658904858971, guid: eccb03b78e51dc94aad045a2cde5147c, type: 3}
       propertyPath: m_Name
       value: FirstAidKitSmall
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308360658904858971, guid: eccb03b78e51dc94aad045a2cde5147c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2308360658904858971, guid: eccb03b78e51dc94aad045a2cde5147c, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -65427,7 +66083,7 @@ Transform:
   - {fileID: 210932007}
   - {fileID: 304589094}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1438402527
 Mesh:
@@ -65872,6 +66528,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -66504,6 +67164,10 @@ PrefabInstance:
       value: Corn (19)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -66874,6 +67538,10 @@ PrefabInstance:
       value: Fence (14)
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -66942,6 +67610,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -67015,6 +67687,10 @@ PrefabInstance:
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_Name
       value: Fence (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -68302,6 +68978,10 @@ PrefabInstance:
       value: Tomato (50)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -68463,6 +69143,10 @@ PrefabInstance:
       value: Corn (42)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -68482,6 +69166,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -68782,6 +69470,10 @@ PrefabInstance:
       value: Tomato (4)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -68941,6 +69633,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -69380,6 +70076,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -69897,6 +70597,10 @@ PrefabInstance:
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_Name
       value: Fence (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -71959,6 +72663,10 @@ PrefabInstance:
       value: Tomato (66)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -72050,6 +72758,10 @@ PrefabInstance:
       value: Sunflower (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -72123,6 +72835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sink
       objectReference: {fileID: 0}
+    - target: {fileID: 242680349089254504, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 582649703470896850, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -72178,6 +72894,14 @@ PrefabInstance:
     - target: {fileID: 582649703470896850, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7068046970363025370, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7675496202639144193, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
@@ -72251,6 +72975,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -72328,6 +73056,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -72713,6 +73445,10 @@ PrefabInstance:
       value: Corn (33)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -72884,6 +73620,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -73210,7 +73950,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh20878
+  m_Name: pb_Mesh20922
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -73384,6 +74124,10 @@ PrefabInstance:
       value: Sunflower (27)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -73457,6 +74201,10 @@ PrefabInstance:
       value: Sunflower (34)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -73521,6 +74269,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1801723082}
     m_Modifications:
+    - target: {fileID: 193621571379885519, guid: 807633fe5f241f845b67ddcedba0e606, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088644538900162756, guid: 807633fe5f241f845b67ddcedba0e606, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3615237554046445418, guid: 807633fe5f241f845b67ddcedba0e606, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -73580,6 +74336,22 @@ PrefabInstance:
     - target: {fileID: 4134365799473708496, guid: 807633fe5f241f845b67ddcedba0e606, type: 3}
       propertyPath: m_Name
       value: Closet
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134365799473708496, guid: 807633fe5f241f845b67ddcedba0e606, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5893885758009361399, guid: 807633fe5f241f845b67ddcedba0e606, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6870912901592273703, guid: 807633fe5f241f845b67ddcedba0e606, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7531277698686776233, guid: 807633fe5f241f845b67ddcedba0e606, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 807633fe5f241f845b67ddcedba0e606, type: 3}
@@ -73956,7 +74728,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1687117588
 GameObject:
@@ -75368,6 +76140,10 @@ PrefabInstance:
       value: Sunflower (54)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -75488,6 +76264,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -76115,6 +76895,10 @@ PrefabInstance:
       value: Corn (28)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -76235,6 +77019,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -76894,6 +77682,10 @@ PrefabInstance:
       value: Sunflower (29)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -76965,6 +77757,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -77204,6 +78000,10 @@ PrefabInstance:
       value: Fence (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -77316,6 +78116,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -77821,6 +78625,10 @@ PrefabInstance:
       value: Coach
       objectReference: {fileID: 0}
     - target: {fileID: 4832573087148553441, guid: eea21327397b6dc409f583706a2c2193, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832573087148553441, guid: eea21327397b6dc409f583706a2c2193, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -77947,6 +78755,10 @@ PrefabInstance:
       value: Tomato (36)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -77966,6 +78778,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -78088,6 +78904,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -79384,6 +80204,10 @@ PrefabInstance:
       value: Tomato (52)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -79464,6 +80288,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -79639,6 +80467,10 @@ PrefabInstance:
       value: Tomato (18)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -79675,7 +80507,7 @@ Transform:
   - {fileID: 2077914573}
   - {fileID: 707650874}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1785655073
 Mesh:
@@ -79916,6 +80748,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -80324,8 +81160,8 @@ Transform:
   - {fileID: 1845987153}
   - {fileID: 386519419}
   - {fileID: 1856434029}
-  - {fileID: 5421167332702042404}
   - {fileID: 5203321857415605574}
+  - {fileID: 5421167332702042404}
   - {fileID: 141748962}
   - {fileID: 1562569952}
   - {fileID: 688766551}
@@ -80336,7 +81172,7 @@ Transform:
   - {fileID: 58758847}
   - {fileID: 543450653509995867}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1804943090
 GameObject:
@@ -81372,6 +82208,10 @@ PrefabInstance:
       value: Tomato (26)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -81437,6 +82277,10 @@ PrefabInstance:
       value: Corn (53)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -81456,6 +82300,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -81610,6 +82458,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -82079,6 +82931,10 @@ PrefabInstance:
       value: Sunflower (61)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -82193,6 +83049,10 @@ PrefabInstance:
       value: AmmoBoxGun
       objectReference: {fileID: 0}
     - target: {fileID: 151396083475304726, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 151396083475304726, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -82304,6 +83164,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -82423,6 +83287,10 @@ PrefabInstance:
       value: Tomato (11)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -82498,6 +83366,10 @@ PrefabInstance:
       value: Corn (49)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -82513,6 +83385,10 @@ PrefabInstance:
     - target: {fileID: 6125640629227732028, guid: a76656d84ff6cdf4d839cfc2bd288ed2, type: 3}
       propertyPath: m_Name
       value: Box
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125640629227732028, guid: a76656d84ff6cdf4d839cfc2bd288ed2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6125640629227732028, guid: a76656d84ff6cdf4d839cfc2bd288ed2, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -82812,6 +83688,10 @@ PrefabInstance:
       value: Tomato (23)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -82875,6 +83755,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -83121,6 +84005,10 @@ PrefabInstance:
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_Name
       value: Tomato (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -83637,6 +84525,10 @@ PrefabInstance:
       value: Sunflower (15)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -83754,6 +84646,10 @@ PrefabInstance:
       value: Corn (12)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -83856,7 +84752,7 @@ RectTransform:
   - {fileID: 2140158838}
   - {fileID: 1218348033}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -84263,6 +85159,10 @@ PrefabInstance:
     - target: {fileID: 6520754151176946635, guid: d3a4a8030252ae34f8312dd31f41d13f, type: 3}
       propertyPath: m_Name
       value: Shotgun
+      objectReference: {fileID: 0}
+    - target: {fileID: 6520754151176946635, guid: d3a4a8030252ae34f8312dd31f41d13f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3a4a8030252ae34f8312dd31f41d13f, type: 3}
@@ -85615,6 +86515,10 @@ PrefabInstance:
       value: Tomato (20)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -85708,6 +86612,10 @@ PrefabInstance:
       value: Sunflower (59)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -85779,6 +86687,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -86278,6 +87190,10 @@ PrefabInstance:
       value: Tomato (61)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -86661,6 +87577,10 @@ PrefabInstance:
       value: Corn (4)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -86686,6 +87606,10 @@ PrefabInstance:
     - target: {fileID: 6125640629227732028, guid: a76656d84ff6cdf4d839cfc2bd288ed2, type: 3}
       propertyPath: m_Name
       value: Box (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125640629227732028, guid: a76656d84ff6cdf4d839cfc2bd288ed2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6125640629227732028, guid: a76656d84ff6cdf4d839cfc2bd288ed2, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -86761,6 +87685,10 @@ PrefabInstance:
       value: Box (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6125640629227732028, guid: a76656d84ff6cdf4d839cfc2bd288ed2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125640629227732028, guid: a76656d84ff6cdf4d839cfc2bd288ed2, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -86833,6 +87761,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -86960,6 +87892,10 @@ PrefabInstance:
     - target: {fileID: 2157256695643754495, guid: 36d6c8c5e795c1c48807a011f2f25a26, type: 3}
       propertyPath: m_Name
       value: FenceDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157256695643754495, guid: 36d6c8c5e795c1c48807a011f2f25a26, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2157256695643754495, guid: 36d6c8c5e795c1c48807a011f2f25a26, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -87372,6 +88308,10 @@ PrefabInstance:
       value: Corn (56)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -87395,6 +88335,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -87526,6 +88470,10 @@ PrefabInstance:
       value: Tomato (37)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -87594,6 +88542,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -88510,6 +89462,10 @@ PrefabInstance:
       value: Tomato (47)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -88596,6 +89552,10 @@ PrefabInstance:
     - target: {fileID: 6125640629227732028, guid: a76656d84ff6cdf4d839cfc2bd288ed2, type: 3}
       propertyPath: m_Name
       value: Box (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125640629227732028, guid: a76656d84ff6cdf4d839cfc2bd288ed2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6125640629227732028, guid: a76656d84ff6cdf4d839cfc2bd288ed2, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -88993,6 +89953,10 @@ PrefabInstance:
       value: Sunflower (56)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -89287,6 +90251,10 @@ PrefabInstance:
       value: Sunflower (58)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -89358,6 +90326,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -89915,6 +90887,10 @@ PrefabInstance:
       value: Sunflower (28)
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -89986,6 +90962,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -90223,6 +91203,10 @@ PrefabInstance:
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_Name
       value: Fence (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3654509449327011490, guid: 4403626a80f40304d97e58077fbcfe41, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -90676,6 +91660,10 @@ PrefabInstance:
       value: Tomato (8)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -90908,6 +91896,10 @@ PrefabInstance:
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_Name
       value: Corn (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -91252,6 +92244,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -91752,6 +92748,10 @@ PrefabInstance:
       value: Tomato (62)
       objectReference: {fileID: 0}
     - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640856260016526137, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -91767,6 +92767,10 @@ PrefabInstance:
     - target: {fileID: 242680349089254504, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
       propertyPath: m_Name
       value: Sink (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 242680349089254504, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 582649703470896850, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
       propertyPath: m_RootOrder
@@ -91823,6 +92827,14 @@ PrefabInstance:
     - target: {fileID: 582649703470896850, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7068046970363025370, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7675496202639144193, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 805bc716d62035b4796aaede2fea3cec, type: 3}
@@ -91896,6 +92908,10 @@ PrefabInstance:
       value: Corn (48)
       objectReference: {fileID: 0}
     - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846247469540789440, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -91915,6 +92931,10 @@ PrefabInstance:
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_Name
       value: Sunflower (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6942551308556812986, guid: 19e293ad890127e4f9dfb6331d660cf9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -93045,7 +94065,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &692883594660314285
 GameObject:
   m_ObjectHideFlags: 0
@@ -93090,6 +94110,10 @@ PrefabInstance:
     - target: {fileID: 3718264452657821153, guid: 1c7d4808fc53a5c418bcc28729a4a729, type: 3}
       propertyPath: m_Name
       value: Hay
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718264452657821153, guid: 1c7d4808fc53a5c418bcc28729a4a729, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3718264452657821153, guid: 1c7d4808fc53a5c418bcc28729a4a729, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -94138,6 +95162,10 @@ PrefabInstance:
       value: Table
       objectReference: {fileID: 0}
     - target: {fileID: 378527496168247193, guid: 72c9d1acc2f2b2646856189fb4c6f2a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 378527496168247193, guid: 72c9d1acc2f2b2646856189fb4c6f2a8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -94285,7 +95313,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1001 &2129000412369825651
 PrefabInstance:
@@ -94321,6 +95349,10 @@ PrefabInstance:
     - target: {fileID: 1246040560490924572, guid: 690e6d8519e50894caddefbfeb573241, type: 3}
       propertyPath: m_Name
       value: Kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246040560490924572, guid: 690e6d8519e50894caddefbfeb573241, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1246040560490924572, guid: 690e6d8519e50894caddefbfeb573241, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -94669,7 +95701,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!33 &2331912217186893399
 MeshFilter:
@@ -94832,6 +95864,10 @@ PrefabInstance:
     - target: {fileID: 3253784011065564570, guid: 9ba6e072945864149b04033255df751e, type: 3}
       propertyPath: m_Name
       value: Tools
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253784011065564570, guid: 9ba6e072945864149b04033255df751e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3253784011065564570, guid: 9ba6e072945864149b04033255df751e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -95231,7 +96267,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!33 &2741401146874472312
 MeshFilter:
@@ -96268,6 +97304,10 @@ PrefabInstance:
       value: Barrel
       objectReference: {fileID: 0}
     - target: {fileID: 1580775356751119000, guid: 221c23227513d3e4d98ca683e3a8bbd2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1580775356751119000, guid: 221c23227513d3e4d98ca683e3a8bbd2, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -96335,6 +97375,10 @@ PrefabInstance:
     - target: {fileID: 1453553962187616974, guid: 72d2dc03c06371f4a9ff3b748aefcdee, type: 3}
       propertyPath: m_Name
       value: Couch
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453553962187616974, guid: 72d2dc03c06371f4a9ff3b748aefcdee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1453553962187616974, guid: 72d2dc03c06371f4a9ff3b748aefcdee, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -97161,6 +98205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lamp
       objectReference: {fileID: 0}
+    - target: {fileID: 8765353269843706440, guid: b697e380747e9dd4f8140760d9db611b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b697e380747e9dd4f8140760d9db611b, type: 3}
 --- !u!1 &4863387344095950844
@@ -97177,7 +98225,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &4872527913205432484
 MeshRenderer:
@@ -97456,7 +98504,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &5169421360283358359
 MeshRenderer:
@@ -97551,7 +98599,7 @@ Transform:
   - {fileID: 1446906260584413719}
   - {fileID: 76132455995848403}
   m_Father: {fileID: 1801723082}
-  m_RootOrder: 47
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &5297852780860717336
 BoxCollider:
@@ -97592,7 +98640,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5326524579587754991
 Transform:
   m_ObjectHideFlags: 0
@@ -97665,7 +98713,7 @@ Transform:
   - {fileID: 1442862633323871541}
   - {fileID: 144195791280595633}
   m_Father: {fileID: 1801723082}
-  m_RootOrder: 46
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &5431497649295696025
 MeshRenderer:
@@ -98033,7 +99081,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &5707290723675877778
 GameObject:
@@ -98178,7 +99226,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &5936117910807583218
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -98292,7 +99340,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!33 &6025487339086307646
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -99399,7 +100447,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7157017785019975254
 Transform:
@@ -99795,6 +100843,10 @@ PrefabInstance:
     - target: {fileID: 7434314711632663216, guid: 80f97ec163b38794ba28c58c260cbd48, type: 3}
       propertyPath: m_Name
       value: Workshop
+      objectReference: {fileID: 0}
+    - target: {fileID: 7434314711632663216, guid: 80f97ec163b38794ba28c58c260cbd48, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7434314711632663216, guid: 80f97ec163b38794ba28c58c260cbd48, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -100337,7 +101389,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!33 &8467834521973260607
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -100715,6 +101767,10 @@ PrefabInstance:
     - target: {fileID: 5273719208424760406, guid: e665aeffc359f2c42b8cd62071e57f71, type: 3}
       propertyPath: m_Name
       value: Tractor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273719208424760406, guid: e665aeffc359f2c42b8cd62071e57f71, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5273719208424760406, guid: e665aeffc359f2c42b8cd62071e57f71, type: 3}
       propertyPath: m_StaticEditorFlags
