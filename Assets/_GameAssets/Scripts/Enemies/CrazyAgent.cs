@@ -18,7 +18,7 @@ public class CrazyAgent : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         targets = GameObject.FindGameObjectsWithTag("Destiny");
         actualTarget = targets[0].transform;
-        actualTarget = targets[Random.Range(0, targets.Length)].transform;
+        //Empezando el patrullaje en un punto alternativo: actualTarget = targets[Random.Range(0,targets.Length)].transform;
         enemyAnimations = GetComponent<EnemyAnimations>();
     }
 
@@ -56,8 +56,8 @@ public class CrazyAgent : MonoBehaviour
 
     public IEnumerator CoroutineStopSliding(int t) //Función para que no se pasen de frenada.
     {
-        yield return null;
-        actualTarget = targets[t];
+        yield return null;     
+        actualTarget = targets[t].transform;
         agent.isStopped = false;
     }
 }
