@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] int playerLife;
+    public int playerLife;
     [SerializeField] int maxPlayerLife;   
     [SerializeField] Slider healthBarSlider; //Vida en la barra de salud
     [SerializeField] Image healthBarColor; //Colores en la barra de salud 

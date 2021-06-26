@@ -1435,6 +1435,7 @@ GameObject:
   - component: {fileID: 4355256184055520110}
   - component: {fileID: 4355256184055520111}
   - component: {fileID: 4355256184055520108}
+  - component: {fileID: 8828571181852974561}
   m_Layer: 3
   m_Name: SmartAgent
   m_TagString: Untagged
@@ -1647,6 +1648,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visionDistance: 7
   damage: 25
+  soundManager: {fileID: 8828571181852974561}
+  isLooking: 0
   smartAgent: {fileID: 4355256184055520110}
   isEnter: 1
 --- !u!114 &4355256184055520110
@@ -1698,6 +1701,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 7861718993167673063}
+--- !u!114 &8828571181852974561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3508748026678011431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b89cf5b494116044a111751ea625f23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 4355256184055520117}
+  audioClip: {fileID: 8300000, guid: 4f6af4878206a9c45941c51677fcebaa, type: 3}
 --- !u!1 &3611487319775506947
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,10 +9,15 @@ public class SmartVision : EnemyVision
     Transform visionPointSmart;
     public bool isEnter = true;  //Variable para que los enemigos golpeen una sola vez al FPSController del player  
 
+
+    private bool isLooking;
+
     private void Awake()
     {
         //Como mis enemigos tienen el pivote en los pies, un gameobject vacío en el centro será el punto donde surja el raycast
         visionPointSmart = transform.Find("VisionPoint");
+
+        isLooking = true;
     }
 
     void Update()
@@ -24,12 +29,22 @@ public class SmartVision : EnemyVision
         {
             if (hit.collider.gameObject.layer == 10)
             {
-                smartAgent.ChasePlayer(hit.collider.transform);
-                //Llamada a método inmolación de clase EnemyAnimation
+                if (isLooking)
+                {
+                    isLooking = false;
+                    smartAgent.ChasePlayer(hit.collider.transform);
+                    //Llamada a método inmolación de clase EnemyAnimation
+                    soundManager.EnemySound();
+                }                    
+               
+            }else
+            {
+                isLooking = true;
             }
         }
 
         Debug.DrawRay(ray.origin, ray.direction * visionDistance, Color.red);
+
     }
 
     //Al entrar el player en el collider triggeado, accede a su vida para herirlo una vez

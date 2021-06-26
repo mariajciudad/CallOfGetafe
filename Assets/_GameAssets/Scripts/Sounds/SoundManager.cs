@@ -4,18 +4,10 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    [SerializeField] AudioSource audioSource;
+    public AudioSource audioSource;
+    public AudioClip audioClip;
 
-    [SerializeField] AudioClip audioClip;
 
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.layer == 10)
-        {
-            audioSource.PlayOneShot(audioClip);
-        }        
-    }
 
     public void EnemySound()
     {
