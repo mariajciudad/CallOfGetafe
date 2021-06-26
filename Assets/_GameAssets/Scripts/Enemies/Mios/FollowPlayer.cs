@@ -32,7 +32,7 @@ public class FollowPlayer : MonoBehaviour
            if (isFirstMeeting)
            {
                 isFirstMeeting = false;         
-                soundManager.EnemySound();
+                soundManager.EnemySoundAttack();
            }            
         } 
         else

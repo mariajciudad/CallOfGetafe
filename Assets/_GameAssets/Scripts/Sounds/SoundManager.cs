@@ -5,15 +5,23 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     public AudioSource audioSource;
-    public AudioClip[] audioClip;
+    public AudioClip audioClipAttack;
+    public AudioClip[] audioClipHurt;
+    public AudioClip[] audioClipSeePlayer;
 
-    public void EnemySound()
+    public void EnemySoundSeePlayer()
     {
-        audioSource.PlayOneShot(audioClip[0]);
+        audioSource.PlayOneShot(audioClipSeePlayer[Random.Range(0, audioClipSeePlayer.Length)]);
     }
 
-    public void EnemySoundRandom()
+    public void EnemySoundAttack()
     {
-        audioSource.PlayOneShot(audioClip[Random.Range(0, audioClip.Length)]);
+        audioSource.PlayOneShot(audioClipAttack);
     }
+
+    public void EnemySoundHurt()
+    {
+        audioSource.PlayOneShot(audioClipHurt[Random.Range(0, audioClipHurt.Length)]);
+    }
+     
 }

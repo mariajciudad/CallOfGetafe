@@ -15,6 +15,7 @@ public class EnemyLife : MonoBehaviour
     [SerializeField] EnemyVision enemyVision;
     [SerializeField] Slider healthBarSlider; 
     [SerializeField] Image healthBarColor;
+    public SoundManager soundManager;
 
     private void Awake()
     {
@@ -35,7 +36,7 @@ public class EnemyLife : MonoBehaviour
 
         HealthBar(life);
 
-        Debug.Log("Vida enemigo: " + life);
+        soundManager.EnemySoundHurt();
 
         if (life <= 0)
         {

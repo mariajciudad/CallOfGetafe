@@ -1848,7 +1848,6 @@ MonoBehaviour:
   visionDistance: 3
   damage: 20
   soundManager: {fileID: 7754685839950198905}
-  isLooking: 0
 --- !u!114 &6745267935211291228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1866,6 +1865,7 @@ MonoBehaviour:
   enemyVision: {fileID: 6745267935211291230}
   healthBarSlider: {fileID: 571829682}
   healthBarColor: {fileID: 989319931}
+  soundManager: {fileID: 7754685839950198905}
 --- !u!195 &6745267935211291171
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1932,7 +1932,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 6745267935211291225}
-  audioClip: {fileID: 8300000, guid: 4f6af4878206a9c45941c51677fcebaa, type: 3}
+  audioClipAttack: {fileID: 0}
+  audioClipHurt:
+  - {fileID: 8300000, guid: 4f6af4878206a9c45941c51677fcebaa, type: 3}
+  - {fileID: 8300000, guid: 4d7ae50b30f153d4a882ddf2d653f724, type: 3}
+  - {fileID: 8300000, guid: c80335d55cc0c864fafe1eafd0515a11, type: 3}
+  - {fileID: 8300000, guid: 41ba5f166bc048a458afb81222b6c598, type: 3}
+  audioClipSeePlayer: []
 --- !u!1 &5899115471979065702
 GameObject:
   m_ObjectHideFlags: 0

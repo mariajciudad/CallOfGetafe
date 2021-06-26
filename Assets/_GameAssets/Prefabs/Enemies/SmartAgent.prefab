@@ -1687,6 +1687,7 @@ MonoBehaviour:
   enemyVision: {fileID: 4355256184055520105}
   healthBarSlider: {fileID: 6536496248568748241}
   healthBarColor: {fileID: 7338271149894047662}
+  soundManager: {fileID: 8828571181852974561}
 --- !u!114 &4355256184055520108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1713,7 +1714,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 4355256184055520117}
-  audioClip:
+  audioClipAttack: {fileID: 8300000, guid: d0796690acad21f48860dcffe61a7804, type: 3}
+  audioClipHurt: {fileID: 8300000, guid: d9fd3032d9d6d504d9feed3a1b07decc, type: 3}
+  audioClipDeath: {fileID: 8300000, guid: cee7622783cbfa5479dd2e777478ccf7, type: 3}
+  audioClipSeePlayer:
   - {fileID: 8300000, guid: 8c8156996ecc8414b9d2e87d6ce73f32, type: 3}
   - {fileID: 8300000, guid: a6d56ec0ebddaf646a83adebdbbdd750, type: 3}
 --- !u!1 &3611487319775506947
