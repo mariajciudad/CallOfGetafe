@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 //Gestiona la vida de los enemigos
 public class EnemyLife : MonoBehaviour
@@ -12,6 +13,8 @@ public class EnemyLife : MonoBehaviour
     CrazyAgent crazyAgent;
     NavMeshAgent navMeshAgent;
     [SerializeField] EnemyVision enemyVision;
+    [SerializeField] Slider healthBarSlider; 
+    [SerializeField] Image healthBarColor;
 
     private void Awake()
     {
@@ -21,6 +24,7 @@ public class EnemyLife : MonoBehaviour
         enemyVision = GetComponent<EnemyVision>();
         navMeshAgent = GetComponent<NavMeshAgent>();
 
+        healthBarSlider.value = life;
         Debug.Log("Vida enemigo: " + life);
     }
 
@@ -29,12 +33,15 @@ public class EnemyLife : MonoBehaviour
     {
         life -= damage;
 
-       Debug.Log("Vida enemigo: " + life);
+        HealthBar(life);
+
+        Debug.Log("Vida enemigo: " + life);
 
         if (life <= 0)
         {
             enemyVision.enabled = false;
             DesactiveParameters();
+            Destroy(gameObject);
         }
     }
     
@@ -44,5 +51,24 @@ public class EnemyLife : MonoBehaviour
         rigidBody.isKinematic = false;
         crazyAgent.enabled = false;  
         navMeshAgent.enabled = false;
+    }
+
+    public void HealthBar(int amount)
+    {
+        healthBarSlider.value = life;
+
+        if (amount >= 50)
+        {
+            healthBarColor.color = new Color32(19, 233, 109, 255);
+        }
+
+        else if (amount > 25 && amount < 50)
+        {
+            healthBarColor.color = new Color32(233, 223, 19, 255);
+        }
+        else
+        {
+            healthBarColor.color = new Color32(233, 19, 25, 255);
+        }
     }
 }
