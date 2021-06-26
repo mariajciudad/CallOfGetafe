@@ -17,11 +17,10 @@ public class CrazyAgent : MonoBehaviour
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
-        targets = GameObject.FindGameObjectsWithTag("Destiny"); //Rellena el array con los puntos de destino
+        targets = GameObject.FindGameObjectsWithTag("DestinyCrazy"); //Rellena el array con los puntos de destino
         enemyAnimations = GetComponent<EnemyAnimations>();
         actualTarget = targets[0].transform;
         //Empezando el patrullaje en un punto alternativo: actualTarget = targets[Random.Range(0,targets.Length)].transform;
-      
     }
 
     private void Start()
