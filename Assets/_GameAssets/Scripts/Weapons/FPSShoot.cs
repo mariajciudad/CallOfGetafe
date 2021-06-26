@@ -33,8 +33,18 @@ public class FPSShoot : MonoBehaviour
                 //Si el raycast colisiona con los GameObjects que tengan los layers seleccionados, se les reducirá su vida según el daño del arma
                 if (Physics.Raycast(ray.origin, ray.direction, out hit, shootDist, layerMask))
                 {
-                    Debug.Log("He disparado a un enemigo");    
-                    hit.collider.gameObject.GetComponent<EnemyLife>().RemoveLife(weaponManager.damage);
+                    //Detecta al primer enemigo
+                   if (hit.collider.gameObject.layer == 9)
+                   {
+                        hit.collider.gameObject.GetComponent<FirstEnemy>().RemoveLife(weaponManager.damage);
+                     
+
+                    }
+                    //Detecta al resto de enemigos
+                    else if (hit.collider.gameObject.layer == 3)
+                    {
+                        hit.collider.gameObject.GetComponent<EnemyLife>().RemoveLife(weaponManager.damage);
+                    }                                        
                 }
             }
         }

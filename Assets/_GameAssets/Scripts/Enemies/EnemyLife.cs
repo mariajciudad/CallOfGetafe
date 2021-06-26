@@ -25,8 +25,7 @@ public class EnemyLife : MonoBehaviour
         enemyVision = GetComponent<EnemyVision>();
         navMeshAgent = GetComponent<NavMeshAgent>();
 
-        healthBarSlider.value = life;
-        Debug.Log("Vida enemigo: " + life);
+        healthBarSlider.value = life;       
     }
 
     //Reduce la vida del enemigo. Si llega a 0, muere 
