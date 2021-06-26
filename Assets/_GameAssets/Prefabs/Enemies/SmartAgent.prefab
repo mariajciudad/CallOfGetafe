@@ -1649,7 +1649,6 @@ MonoBehaviour:
   visionDistance: 7
   damage: 25
   soundManager: {fileID: 8828571181852974561}
-  isLooking: 0
   smartAgent: {fileID: 4355256184055520110}
   isEnter: 1
 --- !u!114 &4355256184055520110
@@ -1714,7 +1713,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 4355256184055520117}
-  audioClip: {fileID: 8300000, guid: 4f6af4878206a9c45941c51677fcebaa, type: 3}
+  audioClip:
+  - {fileID: 8300000, guid: 8c8156996ecc8414b9d2e87d6ce73f32, type: 3}
+  - {fileID: 8300000, guid: a6d56ec0ebddaf646a83adebdbbdd750, type: 3}
 --- !u!1 &3611487319775506947
 GameObject:
   m_ObjectHideFlags: 0

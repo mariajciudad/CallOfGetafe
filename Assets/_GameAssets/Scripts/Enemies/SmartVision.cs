@@ -34,10 +34,11 @@ public class SmartVision : EnemyVision
                     isLooking = false;
                     smartAgent.ChasePlayer(hit.collider.transform);
                     //Llamada a método inmolación de clase EnemyAnimation
-                    soundManager.EnemySound();
+                    soundManager.EnemySoundRandom();
                 }                    
                
-            }else
+            } 
+            else
             {
                 isLooking = true;
             }
