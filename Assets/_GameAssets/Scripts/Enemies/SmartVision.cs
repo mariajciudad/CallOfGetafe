@@ -7,6 +7,7 @@ public class SmartVision : EnemyVision
 {    
     [SerializeField] SmartAgent smartAgent;
     Transform visionPointSmart;
+    public bool isEnter = true;  //Variable para que los enemigos golpeen una sola vez al FPSController del player  
 
     private void Awake()
     {
@@ -31,27 +32,50 @@ public class SmartVision : EnemyVision
         Debug.DrawRay(ray.origin, ray.direction * visionDistance, Color.red);
     }
 
-    //SOLO LE DA UN GOLPE Y YA ESTA, HASTA QUE VUELVA A CHOCAR, FUNCIONA CON EL OTRO PLAYER EL DEL RIGIDBODY
+    //Al entrar el player en el collider triggeado, accede a su vida para herirlo una vez
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer == 10)
         {
-            other.gameObject.GetComponent<PlayerHealth>().RemoveLife(damage);
-            Debug.Log("Enemigo ha chocado con player");
-            Debug.Log("El enemigo le ha quitado al player de vida: " + damage);
+            if(isEnter)
+            {
+                isEnter = false;
+                other.gameObject.GetComponent<PlayerHealth>().RemoveLife(damage);   
+            }                                      
         }
     }
 
-    /*  FUNCIONA PERO LE QUITA MUCHA VIDA AL PLAYER HASTA MATARLO, EN PLAN METRALLETA
-     * private void OnCollisionEnter(Collision collision)
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.layer == 10)
+        {
+            isEnter = true;
+        }
+    }
+
+
+    /* //SOLO LE DA UN GOLPE Y YA ESTA, HASTA QUE VUELVA A CHOCAR, FUNCIONA CON EL OTRO PLAYER EL DEL RIGIDBODY
+    private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.layer == 10)
         {
-            collision.gameObject.GetComponent<PlayerHealth>().RemoveLife(damage);
-            Debug.Log("Enemigo ha chocado con player");
-            Debug.Log("El enemigo le ha quitado al player de vida: " + damage);
+            if (isEnter)
+            {
+                collision.gameObject.GetComponent<PlayerHealth>().RemoveLife(damage);
+                isEnter = false;
+                Debug.Log("Enemigo ha chocado con player");
+                Debug.Log("El enemigo le ha quitado al player de vida: " + damage);
+            }
+        }
+    }    
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.layer == 10)
+        {
+            isEnter = true;
         }
     }
     */
+
 }
-   
