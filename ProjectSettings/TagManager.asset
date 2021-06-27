@@ -10,6 +10,7 @@ TagManager:
   - DestinyCrazy
   - DestinySmart
   - FirstEnemy
+  - DestinyBoss
   layers:
   - Default
   - TransparentFX

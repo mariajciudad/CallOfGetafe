@@ -9,10 +9,11 @@ using UnityEngine.AI;
 public class SmartAgent : CrazyAgent
 {
     [SerializeField] int nextPosition;
+    [SerializeField] string destinyPointsNameTag;
 
     void Awake()
     {   //Rellena el array con los puntos de destino de los enemigos listos    
-        targets = GameObject.FindGameObjectsWithTag("DestinySmart");
+        targets = GameObject.FindGameObjectsWithTag(destinyPointsNameTag);
         actualTarget = targets[0].transform;
     }
 

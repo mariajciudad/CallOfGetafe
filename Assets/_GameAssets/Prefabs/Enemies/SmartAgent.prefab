@@ -1666,10 +1666,11 @@ MonoBehaviour:
   agent: {fileID: 4355256184055520104}
   targets: []
   actualTarget: {fileID: 0}
-  agentVelocity: 2
+  agentVelocity: 1.8
   lastPosition: -1
   enemyAnimations: {fileID: 4355256184055520108}
-  nextPosition: -1
+  nextPosition: 0
+  destinyPointsNameTag: DestinySmart
 --- !u!114 &4355256184055520111
 MonoBehaviour:
   m_ObjectHideFlags: 0
