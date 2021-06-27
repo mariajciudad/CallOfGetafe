@@ -27,8 +27,10 @@ public class ActivateBoss : MonoBehaviour
         //Obtener el total de enemigos en la escena
         totalEnemies += GameObject.Find("SpawnPointCrazy1").GetComponent<EnemySpawner>().getNumberOfEnemies();
         totalEnemies += GameObject.Find("SpawnPointCrazy2").GetComponent<EnemySpawner>().getNumberOfEnemies();
+        totalEnemies += GameObject.Find("SpawnPointCrazy3").GetComponent<EnemySpawner>().getNumberOfEnemies();
         totalEnemies += GameObject.Find("SpawnPointSmart1").GetComponent<EnemySpawner>().getNumberOfEnemies();
         totalEnemies += GameObject.Find("SpawnPointSmart2").GetComponent<EnemySpawner>().getNumberOfEnemies();
+        totalEnemies += GameObject.Find("SpawnPointSmart3").GetComponent<EnemySpawner>().getNumberOfEnemies();
     }
 
     //Se suma uno cada vez que un enemigo muere
