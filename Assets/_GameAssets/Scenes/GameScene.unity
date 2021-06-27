@@ -845,6 +845,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437754186}
     m_Modifications:
+    - target: {fileID: 843060789, guid: ee1ee12c4fc44c74a9304efda45b5a50, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 919132147716892926}
     - target: {fileID: 2767383734775872097, guid: ee1ee12c4fc44c74a9304efda45b5a50, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -16871,6 +16875,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437754186}
     m_Modifications:
+    - target: {fileID: 1074178237, guid: 3c1296a8c334eda498ce8ba5d28eaf7a, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1447454592}
     - target: {fileID: 6115030765285156532, guid: 3c1296a8c334eda498ce8ba5d28eaf7a, type: 3}
       propertyPath: m_Name
       value: FirstAidKitBig
@@ -17492,6 +17500,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437754186}
     m_Modifications:
+    - target: {fileID: 52877059, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1255695545}
     - target: {fileID: 151396083475304726, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
       propertyPath: m_Name
       value: AmmoBoxGun (4)
@@ -17575,6 +17587,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2907747704938266291, guid: 7a1dd1bf65f326a4885eb9f3efa71322, type: 3}
   m_PrefabInstance: {fileID: 1840095714}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &143412108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7488789394658843667, guid: a29e0fbf582201f44aaaabf7230e805a, type: 3}
+  m_PrefabInstance: {fileID: 397657261}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &143412110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143412108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e34cfecde73bf046a8f764ce06d3cc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueTest: {fileID: 1218348034}
+  subtitleText: "Est\xE1 muerto. \xBFQu\xE9 est\xE1 pasando aqu\xED...?"
 --- !u!1001 &144558956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17672,6 +17703,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437754186}
     m_Modifications:
+    - target: {fileID: 843060789, guid: ee1ee12c4fc44c74a9304efda45b5a50, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 919132147716892926}
     - target: {fileID: 2767383734775872097, guid: ee1ee12c4fc44c74a9304efda45b5a50, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -39800,6 +39835,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437754186}
     m_Modifications:
+    - target: {fileID: 843060789, guid: ee1ee12c4fc44c74a9304efda45b5a50, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 919132147716892926}
     - target: {fileID: 2767383734775872097, guid: ee1ee12c4fc44c74a9304efda45b5a50, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -54869,7 +54908,8 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0.026474504
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 52877059, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
 --- !u!4 &1006779401 stripped
 Transform:
@@ -63399,6 +63439,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437754186}
     m_Modifications:
+    - target: {fileID: 52877059, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1255695545}
     - target: {fileID: 151396083475304726, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
       propertyPath: m_Name
       value: AmmoBoxGun (7)
@@ -63460,8 +63504,9 @@ GameObject:
   - component: {fileID: 1218348033}
   - component: {fileID: 1218348035}
   - component: {fileID: 1218348034}
+  - component: {fileID: 1218348036}
   m_Layer: 5
-  m_Name: DialogueTest
+  m_Name: SubtitleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63479,7 +63524,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1917556785}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -63499,7 +63544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -63508,10 +63553,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -63528,6 +63573,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1218348032}
   m_CullTransparentMesh: 1
+--- !u!114 &1218348036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218348032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1001 &1218483532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67740,85 +67800,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7778443932072562216, guid: 2550594acd30ed44597eb9fbd2638142, type: 3}
   m_PrefabInstance: {fileID: 1295522152}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1295545770
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1295545771}
-  - component: {fileID: 1295545773}
-  - component: {fileID: 1295545772}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1295545771
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1295545770}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1917556785}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 20, y: -19}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0, y: 1}
---- !u!114 &1295545772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1295545770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: New Text
---- !u!222 &1295545773
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1295545770}
-  m_CullTransparentMesh: 1
 --- !u!1 &1296679668
 GameObject:
   m_ObjectHideFlags: 0
@@ -68605,6 +68586,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437754186}
     m_Modifications:
+    - target: {fileID: 52877059, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1255695545}
     - target: {fileID: 151396083475304726, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
       propertyPath: m_Name
       value: AmmoBoxGun (8)
@@ -71635,6 +71620,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437754186}
     m_Modifications:
+    - target: {fileID: 1429834456, guid: eccb03b78e51dc94aad045a2cde5147c, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1447454592}
     - target: {fileID: 178101583693971765, guid: eccb03b78e51dc94aad045a2cde5147c, type: 3}
       propertyPath: m_Size.z
       value: 6.311085
@@ -76520,6 +76509,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437754186}
     m_Modifications:
+    - target: {fileID: 1074178237, guid: 3c1296a8c334eda498ce8ba5d28eaf7a, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1447454592}
     - target: {fileID: 6115030765285156532, guid: 3c1296a8c334eda498ce8ba5d28eaf7a, type: 3}
       propertyPath: m_Name
       value: FirstAidKitBig
@@ -77044,6 +77037,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437754186}
     m_Modifications:
+    - target: {fileID: 1429834456, guid: eccb03b78e51dc94aad045a2cde5147c, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1447454592}
     - target: {fileID: 178101583693971765, guid: eccb03b78e51dc94aad045a2cde5147c, type: 3}
       propertyPath: m_Size.x
       value: 7.248026
@@ -83746,6 +83743,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437754186}
     m_Modifications:
+    - target: {fileID: 52877059, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1255695545}
     - target: {fileID: 151396083475304726, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
       propertyPath: m_Name
       value: AmmoBoxGun (5)
@@ -90604,7 +90605,8 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0.026474506
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 52877059, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
 --- !u!1 &1852064633
 GameObject:
@@ -90901,6 +90903,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437754186}
     m_Modifications:
+    - target: {fileID: 1429834456, guid: eccb03b78e51dc94aad045a2cde5147c, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1447454592}
     - target: {fileID: 178101583693971765, guid: eccb03b78e51dc94aad045a2cde5147c, type: 3}
       propertyPath: m_Size.x
       value: 6.0380173
@@ -92762,8 +92768,6 @@ RectTransform:
   m_Children:
   - {fileID: 508562075}
   - {fileID: 2140158838}
-  - {fileID: 1970273703}
-  - {fileID: 1295545771}
   - {fileID: 1218348033}
   m_Father: {fileID: 0}
   m_RootOrder: 14
@@ -93617,6 +93621,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437754186}
     m_Modifications:
+    - target: {fileID: 52877059, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1255695545}
     - target: {fileID: 151396083475304726, guid: ca973a7408a3d0a408b634f245c84e16, type: 3}
       propertyPath: m_Name
       value: AmmoBoxGun (3)
@@ -94807,78 +94815,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4694c2c2e85800547b73ef73dc3e51f0, type: 3}
---- !u!1 &1970273702
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1970273703}
-  - component: {fileID: 1970273705}
-  - component: {fileID: 1970273704}
-  m_Layer: 5
-  m_Name: RawImage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1970273703
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970273702}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1917556785}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 10, y: 10}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &1970273704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970273702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Texture: {fileID: 8400000, guid: 15ac5ec910f968f4fac21a1f9f04a8e2, type: 2}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &1970273705
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970273702}
-  m_CullTransparentMesh: 1
 --- !u!1001 &1970429044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100298,6 +100234,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437754186}
     m_Modifications:
+    - target: {fileID: 1074178237, guid: 3c1296a8c334eda498ce8ba5d28eaf7a, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1447454592}
     - target: {fileID: 6115030765285156532, guid: 3c1296a8c334eda498ce8ba5d28eaf7a, type: 3}
       propertyPath: m_Name
       value: FirstAidKitBig
@@ -104988,6 +104928,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437754186}
     m_Modifications:
+    - target: {fileID: 1074178237, guid: 3c1296a8c334eda498ce8ba5d28eaf7a, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1447454592}
     - target: {fileID: 6115030765285156532, guid: 3c1296a8c334eda498ce8ba5d28eaf7a, type: 3}
       propertyPath: m_Name
       value: FirstAidKitBig
