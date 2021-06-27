@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 430918549062188669}
+  - component: {fileID: 5676247653471130236}
   m_Layer: 0
   m_Name: CastleKey
   m_TagString: Untagged
@@ -38,6 +39,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &5676247653471130236
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058696174418666695}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 28.879318, y: 28.806137, z: 21.360554}
+  m_Center: {x: 2.251955, y: 11.903054, z: 0.00012616317}
 --- !u!1 &1775339428444436801
 GameObject:
   m_ObjectHideFlags: 0
