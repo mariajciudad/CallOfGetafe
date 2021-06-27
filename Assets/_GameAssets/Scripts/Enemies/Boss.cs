@@ -11,11 +11,17 @@ public class Boss : CrazyAgent
     [SerializeField] int nextPosition;
     [SerializeField] string destinyPointsNameTag;
     [SerializeField] public float runSpeed;
-
+    public EnemyLife enemyLife;
+    
     void Awake()
-    {   //Rellena el array con los puntos de destino de los enemigos listos    
+    {   //Rellena el array con los puntos de destino ddel boss    
         targets = GameObject.FindGameObjectsWithTag(destinyPointsNameTag);
-        actualTarget = targets[0].transform;        
+        actualTarget = targets[0].transform;
+    }
+
+    private void Start()
+    {
+        gameObject.SetActive(false);
     }
 
     //Se sobreescribe el método ChangeDestination() heredado
@@ -41,4 +47,5 @@ public class Boss : CrazyAgent
         enemyAnimations.ChangeStateToRun();
         agent.speed = runSpeed;  
     }
+
 }

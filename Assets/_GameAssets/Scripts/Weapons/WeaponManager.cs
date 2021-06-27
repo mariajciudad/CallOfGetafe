@@ -22,8 +22,7 @@ public class WeaponManager : MonoBehaviour
     private void Start()
     {
         crossHair.SetActive(false);
-        crossHairIsActive = true;
-        // POR BORRAR? damage = actualWeapon.GetComponent<Weapon>().weaponDamage;     
+        crossHairIsActive = true;         
     } 
 
     void Update()

@@ -26,4 +26,9 @@ public class EnemySpawner : MonoBehaviour
             CancelInvoke();
         }
     }
+
+    public int getNumberOfEnemies()
+    {
+        return numberOfEnemies;
+    }
 }

@@ -8,13 +8,16 @@ public class EnemyVision : MonoBehaviour
     public float visionDistance;
     Transform visionPoint;
     public int damage;
+    public ActivateBoss activateboss;
 
     public SoundManager soundManager;
 
     private void Awake()
     {
         //Como mis enemigos tienen el pivote en los pies, un gameobject vacío en el centro será el punto donde surja el raycast
-        visionPoint = transform.Find("VisionPoint"); 
+        visionPoint = transform.Find("VisionPoint");
+
+        activateboss = GameObject.Find("ActivateBoss").GetComponent<ActivateBoss>();
     }
 
     void Update()
@@ -26,7 +29,8 @@ public class EnemyVision : MonoBehaviour
         {
             if (hit.collider.gameObject.layer == 10)
             {                                  
-                hit.collider.gameObject.GetComponent<PlayerHealth>().RemoveLife(damage);                
+                hit.collider.gameObject.GetComponent<PlayerHealth>().RemoveLife(damage);
+                activateboss.addKilledEnemies();
                 Destroy(gameObject);                
             }
         }       

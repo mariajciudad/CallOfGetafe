@@ -14,6 +14,11 @@ public class FPSShoot : MonoBehaviour
 
     int shootDist;
 
+
+    public AudioSource audioSource;
+    public AudioClip[] audioClipFire;
+
+
     void Update()
     {
         //Distancia máxima a la que podrá llegar el raycast según el arma
@@ -30,6 +35,15 @@ public class FPSShoot : MonoBehaviour
             {               
                 weaponManager.actualWeapon.GetComponent<Weapon>().ammoInMagazine--;
 
+                if (weaponManager.actualWeapon.name == "DesertEagle")
+                {
+                    audioSource.PlayOneShot(audioClipFire[0]);
+                }
+                else if (weaponManager.actualWeapon.name == "Shotgun")
+                {
+                    audioSource.PlayOneShot(audioClipFire[1]);
+                }
+
                 //Si el raycast colisiona con los GameObjects que tengan los layers seleccionados, se les reducirá su vida según el daño del arma
                 if (Physics.Raycast(ray.origin, ray.direction, out hit, shootDist, layerMask))
                 {
@@ -43,7 +57,7 @@ public class FPSShoot : MonoBehaviour
                     //Detecta al resto de enemigos
                     else if (hit.collider.gameObject.layer == 3)
                     {
-                        hit.collider.gameObject.GetComponent<EnemyLife>().RemoveLife(weaponManager.damage);
+                        hit.collider.gameObject.GetComponent<EnemyLife>().RemoveLife(weaponManager.damage);                        
                     }                                        
                 }
             }

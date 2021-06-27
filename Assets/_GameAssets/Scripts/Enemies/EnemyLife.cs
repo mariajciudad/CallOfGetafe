@@ -18,6 +18,7 @@ public class EnemyLife : MonoBehaviour
     public SoundManager soundManager;
     public GameObject particlesHurt;
     [SerializeField] Transform particlesPoint;
+    public ActivateBoss activateboss;
 
     private void Awake()
     {
@@ -26,6 +27,8 @@ public class EnemyLife : MonoBehaviour
         crazyAgent = GetComponent<CrazyAgent>();
         enemyVision = GetComponent<EnemyVision>();
         navMeshAgent = GetComponent<NavMeshAgent>();
+
+        activateboss = GameObject.Find("ActivateBoss").GetComponent<ActivateBoss>();
 
         healthBarSlider.value = life;       
     }
@@ -45,6 +48,7 @@ public class EnemyLife : MonoBehaviour
         {
             Instantiate(particlesHurt, particlesPoint.transform.position, transform.rotation);
             enemyVision.enabled = false;
+            activateboss.addKilledEnemies();
             DesactiveParameters();
             Destroy(gameObject);
         }
