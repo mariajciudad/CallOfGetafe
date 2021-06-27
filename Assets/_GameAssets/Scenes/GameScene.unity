@@ -274,6 +274,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d72830646fbfe77489168e68a4a4ba0b, type: 3}
+--- !u!1 &4883086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1058696174418666695, guid: a35a510c5f8437848b4e1330dd9f9556, type: 3}
+  m_PrefabInstance: {fileID: 1136290259}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4883087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4883086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e34cfecde73bf046a8f764ce06d3cc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueTest: {fileID: 1218348034}
+  subtitleText: "Tengo la llave del castillo. Deber\xEDa dirigirme all\xED"
 --- !u!4 &4883089 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 430918549062188669, guid: a35a510c5f8437848b4e1330dd9f9556, type: 3}
@@ -41819,8 +41838,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686537038}
-  m_LocalRotation: {x: -0, y: 0.6870494, z: -0, w: -0.7266107}
-  m_LocalPosition: {x: 25.574707, y: -15.244944, z: -194.35799}
+  m_LocalRotation: {x: -0.14721806, y: 0.69161177, z: 0.69161177, w: 0.14721806}
+  m_LocalPosition: {x: 250.99918, y: -164.62495, z: -28.837326}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 435006176}
@@ -54935,6 +54954,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullets: 10
   weapon: {fileID: 1255695545}
+--- !u!114 &1006779404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006779402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e34cfecde73bf046a8f764ce06d3cc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueTest: {fileID: 1218348034}
+  subtitleText: "Ser\xE1 mejor que vaya al cementerio a investigar"
 --- !u!1 &1008861382
 GameObject:
   m_ObjectHideFlags: 0
@@ -59931,7 +59964,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1437754186}
     m_Modifications:
     - target: {fileID: 4883087, guid: a35a510c5f8437848b4e1330dd9f9556, type: 3}
       propertyPath: animator
@@ -59939,19 +59972,27 @@ PrefabInstance:
       objectReference: {fileID: 20142578}
     - target: {fileID: 430918549062188669, guid: a35a510c5f8437848b4e1330dd9f9556, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 430918549062188669, guid: a35a510c5f8437848b4e1330dd9f9556, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.029999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 430918549062188669, guid: a35a510c5f8437848b4e1330dd9f9556, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.029999997
       objectReference: {fileID: 0}
     - target: {fileID: 430918549062188669, guid: a35a510c5f8437848b4e1330dd9f9556, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 64.569
+      value: -100.74225
       objectReference: {fileID: 0}
     - target: {fileID: 430918549062188669, guid: a35a510c5f8437848b4e1330dd9f9556, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.924
+      value: 0.21078014
       objectReference: {fileID: 0}
     - target: {fileID: 430918549062188669, guid: a35a510c5f8437848b4e1330dd9f9556, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 485.025
+      value: 370.30795
       objectReference: {fileID: 0}
     - target: {fileID: 430918549062188669, guid: a35a510c5f8437848b4e1330dd9f9556, type: 3}
       propertyPath: m_LocalRotation.w
@@ -73329,6 +73370,7 @@ Transform:
   - {fileID: 2103721124}
   - {fileID: 1530499023}
   - {fileID: 123242942}
+  - {fileID: 4883089}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
