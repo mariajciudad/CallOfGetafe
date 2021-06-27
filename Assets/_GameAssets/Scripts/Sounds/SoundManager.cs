@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Gestiona los audios de los enemigos
 public class SoundManager : MonoBehaviour
 {
     public AudioSource audioSource;

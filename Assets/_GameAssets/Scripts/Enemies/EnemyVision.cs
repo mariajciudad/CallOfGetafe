@@ -18,10 +18,10 @@ public class EnemyVision : MonoBehaviour
     }
 
     void Update()
-    {
+    {   //Creación del raycast 
         Ray ray = new Ray(visionPoint.transform.position, visionPoint.transform.forward); 
         RaycastHit hit;
-
+        //Al detectar el collider del player, accede a su vida y le hiere, además de destruirse
         if (Physics.Raycast(ray.origin, ray.direction, out hit, visionDistance))
         {
             if (hit.collider.gameObject.layer == 10)

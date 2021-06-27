@@ -1866,6 +1866,8 @@ MonoBehaviour:
   healthBarSlider: {fileID: 571829682}
   healthBarColor: {fileID: 989319931}
   soundManager: {fileID: 7754685839950198905}
+  particlesHurt: {fileID: 679925872663810321, guid: e8addc3004645a446ac31cdeda8f7b2d, type: 3}
+  particlesPoint: {fileID: 6745267933606483879}
 --- !u!195 &6745267935211291171
 NavMeshAgent:
   m_ObjectHideFlags: 0

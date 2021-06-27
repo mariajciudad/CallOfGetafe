@@ -16,6 +16,8 @@ public class EnemyLife : MonoBehaviour
     [SerializeField] Slider healthBarSlider; 
     [SerializeField] Image healthBarColor;
     public SoundManager soundManager;
+    public GameObject particlesHurt;
+    [SerializeField] Transform particlesPoint;
 
     private void Awake()
     {
@@ -35,10 +37,13 @@ public class EnemyLife : MonoBehaviour
 
         HealthBar(life);
 
+        Instantiate(particlesHurt, particlesPoint.transform.position, transform.rotation);
+
         soundManager.EnemySoundHurt();
 
         if (life <= 0)
         {
+            Instantiate(particlesHurt, particlesPoint.transform.position, transform.rotation);
             enemyVision.enabled = false;
             DesactiveParameters();
             Destroy(gameObject);

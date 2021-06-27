@@ -1688,6 +1688,8 @@ MonoBehaviour:
   healthBarSlider: {fileID: 6536496248568748241}
   healthBarColor: {fileID: 7338271149894047662}
   soundManager: {fileID: 8828571181852974561}
+  particlesHurt: {fileID: 679925872663810321, guid: e8addc3004645a446ac31cdeda8f7b2d, type: 3}
+  particlesPoint: {fileID: 4355256185686079077}
 --- !u!114 &4355256184055520108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1718,7 +1720,6 @@ MonoBehaviour:
   audioClipHurt:
   - {fileID: 8300000, guid: d9fd3032d9d6d504d9feed3a1b07decc, type: 3}
   - {fileID: 8300000, guid: 1e54d366368993d418c98a2c89b5f15b, type: 3}
-  - {fileID: 0}
   audioClipSeePlayer:
   - {fileID: 8300000, guid: 8c8156996ecc8414b9d2e87d6ce73f32, type: 3}
   - {fileID: 8300000, guid: a6d56ec0ebddaf646a83adebdbbdd750, type: 3}

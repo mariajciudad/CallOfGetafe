@@ -7,9 +7,8 @@ public class SmartVision : EnemyVision
 {    
     [SerializeField] SmartAgent smartAgent;
     Transform visionPointSmart;
-    public bool isEnter = true;  //Variable para que los enemigos golpeen una sola vez al FPSController del player  
-
-    private bool isLooking; //Variable para que no se reproduzca un sonido indefinidamente
+    public bool isEnter = true;  //Variable para que los enemigos golpeen una sola vez al FPSController del player estando en su trigger
+    private bool isLooking; //Variable para que no se reproduzca un sonido indefinidamente mientras está en un trigger
 
     private void Awake()
     {
@@ -21,6 +20,7 @@ public class SmartVision : EnemyVision
 
     void Update()
     {
+        //Persigue al player si colisiona con su collider y reproduce una vez un audio
         Ray ray = new Ray(visionPointSmart.transform.position, visionPointSmart.transform.forward);
         RaycastHit hit;
 
@@ -31,8 +31,7 @@ public class SmartVision : EnemyVision
                 if (isLooking)
                 {
                     isLooking = false;
-                    smartAgent.ChasePlayer(hit.collider.transform);
-                    //Llamada a método inmolación de clase EnemyAnimation
+                    smartAgent.ChasePlayer(hit.collider.transform);                   
                     soundManager.EnemySoundSeePlayer();
                 }                      
             } 
@@ -46,7 +45,7 @@ public class SmartVision : EnemyVision
 
     }
 
-    //Al entrar el player en el collider triggeado, accede a su vida para herirlo una vez
+    //Al entrar el player en el collider triggeado, accede a su vida para herirlo una sola vez
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer == 10)
