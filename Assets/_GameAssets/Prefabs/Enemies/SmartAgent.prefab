@@ -960,9 +960,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 1
   m_MinValue: 0
-  m_MaxValue: 80
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 80
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1648,6 +1648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visionDistance: 7
   damage: 25
+  activateboss: {fileID: 0}
   soundManager: {fileID: 8828571181852974561}
   smartAgent: {fileID: 4355256184055520110}
   isEnter: 1
@@ -1683,7 +1684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 356ff5b3def6c6542b60e6b9069d68a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 80
+  life: 100
   ms: {fileID: 0}
   enemyVision: {fileID: 4355256184055520105}
   healthBarSlider: {fileID: 6536496248568748241}
@@ -1691,6 +1692,7 @@ MonoBehaviour:
   soundManager: {fileID: 8828571181852974561}
   particlesHurt: {fileID: 679925872663810321, guid: e8addc3004645a446ac31cdeda8f7b2d, type: 3}
   particlesPoint: {fileID: 4355256185686079077}
+  activateboss: {fileID: 0}
 --- !u!114 &4355256184055520108
 MonoBehaviour:
   m_ObjectHideFlags: 0
