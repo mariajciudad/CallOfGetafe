@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //Detecta al player a través de un raycast y lo persigue, hiriéndolo al tocarlo pero sin explotar
-public class SmartVision : EnemyVision
+public class BossVision : EnemyVision
 {    
-    [SerializeField] SmartAgent smartAgent;
+    [SerializeField] Boss boss;
     Transform visionPointSmart;
     public bool isEnter = true;  //Variable para que los enemigos golpeen una sola vez al FPSController del player estando en su trigger
     private bool isLooking; //Variable para que no se reproduzca un sonido indefinidamente mientras está en un trigger
+    [SerializeField] EnemyAnimations enemyAnimations;
 
     private void Awake()
     {
@@ -31,13 +32,14 @@ public class SmartVision : EnemyVision
                 if (isLooking)
                 {
                     isLooking = false;
-                    smartAgent.ChasePlayer(hit.collider.transform);                   
+                    boss.ChasePlayer(hit.collider.transform);                   
                     soundManager.EnemySoundSeePlayer();
                 }                      
             } 
             else
             {
-                isLooking = true;                
+                isLooking = true;
+                enemyAnimations.ChangeStateToWalk();
             }
         }
 

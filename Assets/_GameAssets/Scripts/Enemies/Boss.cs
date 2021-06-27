@@ -6,15 +6,16 @@ using UnityEngine.AI;
 //Gestiona el comportamiento de los enemigos listos, heredando de CrazyAgent
 //Los enemigos listos se dirigen a los puntos de destino en orden y al ver al player, lo persiguen
 
-public class SmartAgent : CrazyAgent
+public class Boss : CrazyAgent
 {
     [SerializeField] int nextPosition;
     [SerializeField] string destinyPointsNameTag;
+    [SerializeField] public float runSpeed;
 
     void Awake()
     {   //Rellena el array con los puntos de destino de los enemigos listos    
         targets = GameObject.FindGameObjectsWithTag(destinyPointsNameTag);
-        actualTarget = targets[0].transform;
+        actualTarget = targets[0].transform;        
     }
 
     //Se sobreescribe el método ChangeDestination() heredado
@@ -33,9 +34,11 @@ public class SmartAgent : CrazyAgent
         StartCoroutine(CoroutineStopSliding(nextPosition));
     }
 
-    //Cuando ve al player, su target deja de ser los puntos de destino y lo persigue andando
+    //Cuando ve al player, su target deja de ser los puntos de destino y lo persigue corriendo
     public void ChasePlayer(Transform t)
     {
-        actualTarget = t;   
+        actualTarget = t;
+        enemyAnimations.ChangeStateToRun();
+        agent.speed = runSpeed;  
     }
 }

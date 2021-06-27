@@ -19,7 +19,7 @@ public class EnemyAnimations : MonoBehaviour
 
     public void ChangeStateToRun()
     {
-
+        animator.SetBool("Run", true);
     }
 
     public void ChangeStateToDie()

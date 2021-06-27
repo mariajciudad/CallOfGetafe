@@ -12,7 +12,7 @@ public class CrazyAgent : MonoBehaviour
     [SerializeField] public Transform actualTarget;
     [SerializeField] public float agentVelocity;
     [SerializeField] public int lastPosition;
-    [SerializeField] EnemyAnimations enemyAnimations;
+    public EnemyAnimations enemyAnimations;
 
     void Awake()
     {

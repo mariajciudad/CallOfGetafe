@@ -17772,14 +17772,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 170502839}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b82a82ec89677d47b62b15740576185, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c8d92362e68978459cc4a98462c58fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   visionDistance: 10
   damage: 30
   soundManager: {fileID: 170502844}
-  smartAgent: {fileID: 170502849}
+  boss: {fileID: 170502849}
   isEnter: 1
+  enemyAnimations: {fileID: 170502848}
 --- !u!114 &170502846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17794,7 +17795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 200
   ms: {fileID: 0}
-  enemyVision: {fileID: 170502845}
+  enemyVision: {fileID: 0}
   healthBarSlider: {fileID: 806084016}
   healthBarColor: {fileID: 1073574786}
   soundManager: {fileID: 170502844}
@@ -17827,7 +17828,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 170502839}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c263dc8f982f0b8458e14e85ab8e440e, type: 3}
+  m_Script: {fileID: 11500000, guid: ed4609e0e9780b848824a741f875d904, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 170502843}
@@ -17838,6 +17839,7 @@ MonoBehaviour:
   enemyAnimations: {fileID: 170502848}
   nextPosition: 0
   destinyPointsNameTag: DestinyBoss
+  runSpeed: 4
 --- !u!1 &176077100
 GameObject:
   m_ObjectHideFlags: 0
@@ -38396,8 +38398,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686537038}
-  m_LocalRotation: {x: -0.09709306, y: 0.71305126, z: 0.10077434, w: 0.68700475}
-  m_LocalPosition: {x: 156.13339, y: -29.554512, z: -161.05873}
+  m_LocalRotation: {x: -0, y: 0.6870494, z: -0, w: -0.7266107}
+  m_LocalPosition: {x: 147.00473, y: -15.244944, z: -167.83798}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 435006176}
