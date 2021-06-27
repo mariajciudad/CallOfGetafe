@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] int maxPlayerLife;   
     [SerializeField] Slider healthBarSlider; //Vida en la barra de salud
     [SerializeField] Image healthBarColor; //Colores en la barra de salud 
+     public GameOver gameOver;
 
     private void Start()
     {
@@ -37,6 +38,7 @@ public class PlayerHealth : MonoBehaviour
         if (playerLife < 0)
         {
             playerLife = 0;
+            gameOver.StartGameOver();            
         }
 
         HealthBar(playerLife);        
