@@ -13,14 +13,12 @@ public class ActivateBoss : MonoBehaviour
     void Start()
     {
         countTotalEnemies();
-        boss = GameObject.Find("ZombieBoss");
     }
 
     void Update()
     {
         isAllEnemiesDead();
     }
-
 
     private void countTotalEnemies()
     {
@@ -40,7 +38,7 @@ public class ActivateBoss : MonoBehaviour
     }
 
     //Si los enemigos muertos es igual al número de enemigos en la escena, se activa el boss
-    public void isAllEnemiesDead()
+    private void isAllEnemiesDead()
     {
         if (killedEnemies == totalEnemies)
         {
